@@ -1,11 +1,11 @@
 # Project information
 site_name: Absolute beginner Node-RED flow
-site_url: https://ibm.github.io/absolute-beginner-node-red-flow
+site_url: https://thomassuedbroecker.github.io/absolute-beginner-node-red-flow
 site_author: Thomas Südbröcker
 
 # Repository
 repo_name: absolute-beginner-node-red-flow
-repo_url: https://github.com/ibm/absolute-beginner-node-red-flow
+repo_url: https://github.com/thomassuedbroecker/absolute-beginner-node-red-flow
 edit_uri: edit/master/documentation
 docs_dir: documentation
 
