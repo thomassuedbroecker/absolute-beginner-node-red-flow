@@ -1,0 +1,11 @@
+{
+    "_id": "_design/_d_searchindex",
+    "views": {},
+    "language": "javascript",
+    "indexes": {
+      "_searchindex": {
+        "analyzer": "standard",
+        "index": "function (doc) {\n  index(\"default\", doc._id);\n\n  if(doc.user.firstname){\n    index(\"theFirstname\", doc.user.firstname, {\"store\": true, \"facet\":true});\n  }\n  if(doc.user.lastname){\n    index(\"theLastname\", doc.user.lastname, {\"store\": true, \"facet\":true });\n  }\n  if(doc.user.country){\n    index(\"theCountry\", doc.user.country, {\"store\": true, \"facet\":true});\n  }\n}"
+      }
+    }
+}

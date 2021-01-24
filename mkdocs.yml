@@ -1,0 +1,90 @@
+# Project information
+site_name: Absolute beginner Node-RED flow
+site_url: https://ibm.github.io/absolute-beginner-node-red-flow
+site_author: Thomas Südbröcker
+
+# Repository
+repo_name: absolute-beginner-node-red-flow
+repo_url: https://github.com/ibm/absolute-beginner-node-red-flow
+edit_uri: edit/master/documentation
+docs_dir: documentation
+
+# Navigation
+nav:
+  - Welcome:
+    - Overview: README.md
+  - Setup:
+    - Create data entry: steps/1-create-data.md
+    - Get data entries: steps/2-get-data.md.md
+    - Search data entry: steps/3-search-data-enty.md
+    - Setup UI: steps/4-setup-UI.md
+    - Add input form: steps/5-add-input-form.md
+    - Add table to UI: steps/6-add-table-to-ui.md
+  - References:
+    - Node-RED: https://nodered.org
+
+## DO NOT CHANGE BELOW THIS LINE
+
+# Copyright
+# TBD
+
+# Theme
+theme:
+  name: material
+  font:
+    text: IBM Plex Sans
+    code: IBM Plex Mono
+  icon:
+    logo: material/library
+  features:
+    # - navigation.tabs
+    - navigation.instant
+    - navigation.expand
+  palette:
+    scheme: default
+    primary: blue
+    accent: blue
+
+# Plugins
+plugins:
+  - search
+
+# Customization
+# TBD
+
+# Extensions
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - meta
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.snippets:
+      check_paths: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
