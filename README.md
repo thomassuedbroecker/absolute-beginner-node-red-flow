@@ -5,4 +5,4 @@ Covering following main topics:
 * search for data
 * display data in a UI
 
-<https://thomassuedbroecker.github.io/absolute-beginner-node-red-flow>
+<https://thomassuedbroecker.github.io/absolute-beginner-node-red-flow/>
