@@ -1,6 +1,8 @@
 ### Step 1: Add a UI table to the flow and function to the flow
 
-* Insert in the function node
+![](../images/setup-table-00.png)
+
+* Insert in the function node and insert following code
 
 ```javascript
 if (msg.payload.errors !== undefined ){
@@ -33,3 +35,7 @@ if (msg.payload.errors !== undefined ){
 
 return msg;
 ```
+
+### Step 2: Configure the table UI
+
+![](../images/setup-table-01.png)

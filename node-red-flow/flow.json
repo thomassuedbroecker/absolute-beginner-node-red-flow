@@ -1,106 +1,96 @@
-{
-    "flow": [
-      {
-        "id": "37936665.16762a",
-        "type": "tab",
-        "label": "Vending",
-        "disabled": false,
-        "info": ""
-      },
-      {
-        "id": "55e07e93.2f83c",
-        "type": "tab",
-        "label": "Flow 1",
-        "disabled": false,
-        "info": ""
-      },
-      {
-        "id": "ed531f0b.32d03",
-        "type": "ui_group",
-        "name": "Default",
-        "tab": "",
-        "disp": true,
-        "width": "6",
-        "collapse": false
-      },
-      {
-        "id": "bc3f0cb8.e6eca",
-        "type": "ui_base",
-        "theme": {
+[
+  {
+      "id": "61c16fe7.def758",
+      "type": "tab",
+      "label": "Flow 1",
+      "disabled": false,
+      "info": ""
+  },
+  {
+      "id": "82941cb0.0ebd68",
+      "type": "ui_tab",
+      "name": "Home",
+      "icon": "dashboard",
+      "disabled": false,
+      "hidden": false
+  },
+  {
+      "id": "ed8abbcd.098318",
+      "type": "ui_base",
+      "theme": {
           "name": "theme-light",
           "lightTheme": {
-            "default": "#0094CE",
-            "baseColor": "#0094CE",
-            "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
-            "edited": true,
-            "reset": false
+              "default": "#0094CE",
+              "baseColor": "#0094CE",
+              "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+              "edited": false
           },
           "darkTheme": {
-            "default": "#097479",
-            "baseColor": "#097479",
-            "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
-            "edited": false
+              "default": "#097479",
+              "baseColor": "#097479",
+              "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+              "edited": false
           },
           "customTheme": {
-            "name": "Untitled Theme 1",
-            "default": "#4B7930",
-            "baseColor": "#4B7930",
-            "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+              "name": "Untitled Theme 1",
+              "default": "#4B7930",
+              "baseColor": "#4B7930",
+              "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
           },
           "themeState": {
-            "base-color": {
-              "default": "#0094CE",
-              "value": "#0094CE",
-              "edited": false
-            },
-            "page-titlebar-backgroundColor": {
-              "value": "#0094CE",
-              "edited": false
-            },
-            "page-backgroundColor": {
-              "value": "#fafafa",
-              "edited": false
-            },
-            "page-sidebar-backgroundColor": {
-              "value": "#ffffff",
-              "edited": false
-            },
-            "group-textColor": {
-              "value": "#1bbfff",
-              "edited": false
-            },
-            "group-borderColor": {
-              "value": "#ffffff",
-              "edited": false
-            },
-            "group-backgroundColor": {
-              "value": "#ffffff",
-              "edited": false
-            },
-            "widget-textColor": {
-              "value": "#111111",
-              "edited": false
-            },
-            "widget-backgroundColor": {
-              "value": "#0094ce",
-              "edited": false
-            },
-            "widget-borderColor": {
-              "value": "#ffffff",
-              "edited": false
-            },
-            "base-font": {
-              "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
-            }
+              "base-color": {
+                  "default": "#0094CE",
+                  "value": "#0094CE",
+                  "edited": false
+              },
+              "page-titlebar-backgroundColor": {
+                  "value": "#0094CE",
+                  "edited": false
+              },
+              "page-backgroundColor": {
+                  "value": "#fafafa",
+                  "edited": false
+              },
+              "page-sidebar-backgroundColor": {
+                  "value": "#ffffff",
+                  "edited": false
+              },
+              "group-textColor": {
+                  "value": "#1bbfff",
+                  "edited": false
+              },
+              "group-borderColor": {
+                  "value": "#ffffff",
+                  "edited": false
+              },
+              "group-backgroundColor": {
+                  "value": "#ffffff",
+                  "edited": false
+              },
+              "widget-textColor": {
+                  "value": "#111111",
+                  "edited": false
+              },
+              "widget-backgroundColor": {
+                  "value": "#0094ce",
+                  "edited": false
+              },
+              "widget-borderColor": {
+                  "value": "#ffffff",
+                  "edited": false
+              },
+              "base-font": {
+                  "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+              }
           },
           "angularTheme": {
-            "primary": "indigo",
-            "accents": "blue",
-            "warn": "red",
-            "background": "grey"
+              "primary": "indigo",
+              "accents": "blue",
+              "warn": "red",
+              "background": "grey"
           }
-        },
-        "site": {
+      },
+      "site": {
           "name": "Node-RED Dashboard",
           "hideToolbar": "false",
           "allowSwipe": "false",
@@ -108,1006 +98,409 @@
           "allowTempTheme": "true",
           "dateFormat": "DD/MM/YYYY",
           "sizes": {
-            "sx": 48,
-            "sy": 48,
-            "gx": 6,
-            "gy": 6,
-            "cx": 6,
-            "cy": 6,
-            "px": 0,
-            "py": 0
+              "sx": 48,
+              "sy": 48,
+              "gx": 6,
+              "gy": 6,
+              "cx": 6,
+              "cy": 6,
+              "px": 0,
+              "py": 0
           }
-        }
-      },
-      {
-        "id": "87d6ab8a.bd52e8",
-        "type": "ui_tab",
-        "name": "Main",
-        "icon": "dashboard",
-        "order": 1,
-        "disabled": false,
-        "hidden": false
-      },
-      {
-        "id": "822ad774.04b048",
-        "type": "ui_group",
-        "name": "Table",
-        "tab": "87d6ab8a.bd52e8",
-        "order": 1,
-        "disp": true,
-        "width": "16",
-        "collapse": true
-      },
-      {
-        "id": "b1b11140.4e4ef",
-        "type": "inject",
-        "z": "37936665.16762a",
-        "name": "",
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "topic": "",
-        "payload": "Hello Node-RED!",
-        "payloadType": "string",
-        "x": 141,
-        "y": 61,
-        "wires": [
-          [
-            "f2f2649a.0d0d98"
-          ]
-        ]
-      },
-      {
-        "id": "f2f2649a.0d0d98",
-        "type": "debug",
-        "z": "37936665.16762a",
-        "name": "",
-        "active": true,
-        "console": "false",
-        "complete": "false",
-        "x": 390,
-        "y": 60,
-        "wires": []
-      },
-      {
-        "id": "59798b72.318254",
-        "type": "cloudant in",
-        "z": "37936665.16762a",
-        "name": "Search Index Access Code",
-        "cloudant": "",
-        "database": "vendingmachine",
-        "service": "twitter-app-tsuedbro-cloudantNoSQLDB-77911",
-        "search": "_idx_",
-        "design": "_d_i_logvending",
-        "index": "_idx_vending",
-        "x": 420,
-        "y": 220,
-        "wires": [
-          [
-            "6a39ca6b.a66b14"
-          ]
-        ]
-      },
-      {
-        "id": "80862b94.7f1968",
-        "type": "inject",
-        "z": "37936665.16762a",
-        "name": "getAccessCode",
-        "props": [
-          {
-            "p": "payload"
-          }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "{\"theInfo\":\"getAccessCode\", \"limit\": \"200\" }",
-        "payloadType": "json",
-        "x": 140,
-        "y": 180,
-        "wires": [
-          [
-            "59798b72.318254"
-          ]
-        ]
-      },
-      {
-        "id": "a517b8aa.dc1a38",
-        "type": "debug",
-        "z": "37936665.16762a",
-        "name": "",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "false",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 830,
-        "y": 220,
-        "wires": []
-      },
-      {
-        "id": "cbad1f1b.74315",
-        "type": "inject",
-        "z": "37936665.16762a",
-        "name": "Access denied",
-        "props": [
-          {
-            "p": "payload"
-          }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "{\"theMessage\":\"Access denied*\", \"limit\": \"200\" }",
-        "payloadType": "json",
-        "x": 140,
-        "y": 220,
-        "wires": [
-          [
-            "59798b72.318254"
-          ]
-        ]
-      },
-      {
-        "id": "55f1d718.b788a8",
-        "type": "comment",
-        "z": "55e07e93.2f83c",
-        "name": "REST endpoint (GET) - Request followers list",
-        "info": "",
-        "x": 290,
-        "y": 320,
-        "wires": []
-      },
-      {
-        "id": "e0d90993.27c44",
-        "type": "http in",
-        "z": "55e07e93.2f83c",
-        "name": "/getToken",
-        "url": "/getToken",
-        "method": "get",
-        "upload": false,
-        "swaggerDoc": "",
-        "x": 180,
-        "y": 240,
-        "wires": [
-          [
-            "ab4dafb7.2e0b9",
-            "1b538e36.0eda12"
-          ]
-        ]
-      },
-      {
-        "id": "40b26ed3.a8055",
-        "type": "http request",
-        "z": "55e07e93.2f83c",
-        "name": "Request bearer token",
-        "method": "POST",
-        "ret": "txt",
-        "paytoqs": false,
-        "url": "https://api.twitter.com/oauth2/token",
-        "tls": "",
-        "persist": false,
-        "proxy": "",
-        "authType": "",
-        "x": 880,
-        "y": 220,
-        "wires": [
-          [
-            "524852f0.ac63ac"
-          ]
-        ]
-      },
-      {
-        "id": "ab4dafb7.2e0b9",
-        "type": "function",
-        "z": "55e07e93.2f83c",
-        "name": "set header with bearer token",
-        "func": "// validate the request user and password\nif ( msg.payload.nodereduser === flow.get(\"nodereduser\") && msg.payload.noderedpassword === flow.get(\"noderedpassword\")){\n  \n  msg.headers = {\n     'Authorization' : 'Basic ' + flow.get(\"auth\"),\n     'Content-Type' : 'application/x-www-form-urlencoded;charset=UTF-8.'\n  };\n  \n  msg.payload = 'grant_type=client_credentials';\n  msg.valid_request = 1;\n  \n} else {\n  msg.valid_request = 0;\n}\n  \nreturn msg;\n\n\n",
-        "outputs": 1,
-        "noerr": 0,
-        "x": 400,
-        "y": 240,
-        "wires": [
-          [
-            "3fa0044.d739e7c"
-          ]
-        ]
-      },
-      {
-        "id": "524852f0.ac63ac",
-        "type": "http response",
-        "z": "55e07e93.2f83c",
-        "name": "Token response",
-        "statusCode": "",
-        "headers": {},
-        "x": 1180,
-        "y": 240,
-        "wires": []
-      },
-      {
-        "id": "ccfe3ea8.e3c03",
-        "type": "comment",
-        "z": "55e07e93.2f83c",
-        "name": "REST endpoint (POST) - Request a bearer token from Twitter",
-        "info": "",
-        "x": 340,
-        "y": 180,
-        "wires": []
-      },
-      {
-        "id": "353a2edf.70e42a",
-        "type": "http request",
-        "z": "55e07e93.2f83c",
-        "name": "Request twitter follower list",
-        "method": "GET",
-        "ret": "txt",
-        "paytoqs": false,
-        "url": "https://api.twitter.com/1.1/followers/list.json?screen_name={{{twitterSN}}}&cursor={{{twitterCursor}}}&count={{{twitterCount}}}",
-        "tls": "",
-        "persist": false,
-        "proxy": "",
-        "authType": "",
-        "x": 900,
-        "y": 360,
-        "wires": [
-          [
-            "8ecb7347.fe94c8"
-          ]
-        ]
-      },
-      {
-        "id": "8ecb7347.fe94c8",
-        "type": "http response",
-        "z": "55e07e93.2f83c",
-        "name": "Twitter follower list response",
-        "statusCode": "",
-        "headers": {},
-        "x": 1220,
-        "y": 380,
-        "wires": []
-      },
-      {
-        "id": "a20e9d84.a8f22",
-        "type": "function",
-        "z": "55e07e93.2f83c",
-        "name": "set bearer auth headers and parameters",
-        "func": "// validate the request user and password\nif ( msg.payload.nodereduser === flow.get(\"nodereduser\") && msg.payload.noderedpassword === flow.get(\"noderedpassword\")){\n \n    // Get variables\n    bearer_token = flow.get(\"bearer_token\");\n     \n    msg.headers = {\n         'Authorization' : bearer_token\n    }\n    \n    // Get query parameter\n    msg.twitterSN =  msg.req.query.screen_name;\n    msg.twitterCursor =  msg.req.query.cursor;\n    msg.twitterCount =  msg.req.query.count;\n    \n    msg.valid_request = 1;\n  \n} else {\n    msg.valid_request = 0;\n}\n  \nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "x": 440,
-        "y": 380,
-        "wires": [
-          [
-            "863f0ed1.9952e"
-          ]
-        ]
-      },
-      {
-        "id": "6ed435d4.6c7ffc",
-        "type": "http in",
-        "z": "55e07e93.2f83c",
-        "name": "/followers",
-        "url": "/followers",
-        "method": "get",
-        "upload": false,
-        "swaggerDoc": "",
-        "x": 180,
-        "y": 380,
-        "wires": [
-          [
-            "a20e9d84.a8f22"
-          ]
-        ]
-      },
-      {
-        "id": "913c81cb.40976",
-        "type": "http request",
-        "z": "55e07e93.2f83c",
-        "name": "getTwitterToken-Indicrect",
-        "method": "GET",
-        "ret": "txt",
-        "paytoqs": false,
-        "url": "https://node-red-my-hackathon.mybluemix.net/getToken?nodereduser={{{nodereduser}}}&noderedpassword={{{noderedpassword}}}",
-        "tls": "",
-        "persist": false,
-        "proxy": "",
-        "authType": "",
-        "x": 230,
-        "y": 800,
-        "wires": [
-          [
-            "9aed0ab6.f54e78"
-          ]
-        ]
-      },
-      {
-        "id": "66727eea.a6d578",
-        "type": "debug",
-        "z": "55e07e93.2f83c",
-        "name": "Twitter Bearer token",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "payload",
-        "targetType": "msg",
-        "x": 1060,
-        "y": 880,
-        "wires": []
-      },
-      {
-        "id": "551c053a.d9400c",
-        "type": "inject",
-        "z": "55e07e93.2f83c",
-        "name": "start get follower list",
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "str",
-        "x": 150,
-        "y": 560,
-        "wires": [
-          [
-            "56b42a38.cd9c64"
-          ]
-        ]
-      },
-      {
-        "id": "ab752410.03e078",
-        "type": "debug",
-        "z": "55e07e93.2f83c",
-        "name": "Encoded Access token",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "x": 1070,
-        "y": 720,
-        "wires": []
-      },
-      {
-        "id": "ca786e7e.45c1a8",
-        "type": "http request",
-        "z": "55e07e93.2f83c",
-        "name": "getTwitterFollower-Indicrect",
-        "method": "GET",
-        "ret": "txt",
-        "paytoqs": false,
-        "url": "https://node-red-my-hackathon.mybluemix.net/followers?screen_name={{{twitterSN}}}&count={{{twitterCount}}}&cursor={{{twitterCursor}}}&nodereduser={{{nodereduser}}}&noderedpassword={{{noderedpassword}}}",
-        "tls": "",
-        "persist": false,
-        "proxy": "",
-        "authType": "",
-        "x": 1080,
-        "y": 940,
-        "wires": [
-          [
-            "90337eed.56771"
-          ]
-        ]
-      },
-      {
-        "id": "acf23bc2.b325a8",
-        "type": "debug",
-        "z": "55e07e93.2f83c",
-        "name": "move on?",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "x": 860,
-        "y": 1180,
-        "wires": []
-      },
-      {
-        "id": "a470e4ba.e78688",
-        "type": "function",
-        "z": "55e07e93.2f83c",
-        "name": "set twitter user and page cursor",
-        "func": "// Set the tweeter request query parameter before the loop\n\n// Data is used in the REST request \n// (Issue Twitter API REST Request (GET))\n// -----------------------------------------------------------------------\n// https://api.twitter.com/1.1/followers/list.json?\n//   screen_name={{{twitterSN}}}&\n//   cursor={{{twitterCursor}}}&\n//   count={{{twitterCount}}}&\n//   nodereduser={{{nodereduser}}}&\n//   noderedpassword={{{{noderedpassword}}}\n\n// For more information visit get-followers-list:\n// https://developer.twitter.com/en/docs/accounts-and-users/follow-search-get-users/api-reference/get-followers-list\nmsg.payload = flow.get(\"bearer_token\")\n\n// Prepare the get follower request parameter\nmsg.twitterCursor = flow.get(\"twitterCursor\");\nmsg.twitterCount = flow.get(\"twitterResultCount\");\nmsg.twitterSN = flow.get(\"twitterSN\");\n\nmsg.nodereduser = flow.get(\"nodereduser\");\nmsg.noderedpassword = flow.get(\"noderedpassword\");\n\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "x": 730,
-        "y": 940,
-        "wires": [
-          [
-            "66727eea.a6d578",
-            "ca786e7e.45c1a8"
-          ]
-        ]
-      },
-      {
-        "id": "58e13789.271eb8",
-        "type": "debug",
-        "z": "55e07e93.2f83c",
-        "name": "json",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "payload",
-        "targetType": "msg",
-        "x": 1010,
-        "y": 800,
-        "wires": []
-      },
-      {
-        "id": "9aed0ab6.f54e78",
-        "type": "json",
-        "z": "55e07e93.2f83c",
-        "name": "",
-        "property": "payload",
-        "action": "obj",
-        "pretty": false,
-        "x": 430,
-        "y": 800,
-        "wires": [
-          [
-            "58e13789.271eb8",
-            "943ee12f.415d5"
-          ]
-        ]
-      },
-      {
-        "id": "e0c7616e.50858",
-        "type": "function",
-        "z": "55e07e93.2f83c",
-        "name": "set_basic_auth",
-        "func": "// Set basic auth\nflow.set(\"auth\", msg.payload);\nmsg.payload = flow.get(\"auth\");\n\n// Init parameters:\n// For more information visit get-followers-list:\n// https://developer.twitter.com/en/docs/accounts-and-users/follow-search-get-users/api-reference/get-followers-list\nflow.set(\"twitterCursor\", \"-1\");\nflow.set(\"twitterResultCount\", \"50\");\nflow.set(\"twitterSN\", \"TWITTER_DISPLAY_NAME\");\n\nmsg.nodereduser = flow.get(\"nodereduser\");\nmsg.noderedpassword = flow.get(\"noderedpassword\");\n\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "x": 680,
-        "y": 720,
-        "wires": [
-          [
-            "ab752410.03e078",
-            "913c81cb.40976"
-          ]
-        ]
-      },
-      {
-        "id": "90337eed.56771",
-        "type": "json",
-        "z": "55e07e93.2f83c",
-        "name": "",
-        "property": "payload",
-        "action": "obj",
-        "pretty": false,
-        "x": 170,
-        "y": 1020,
-        "wires": [
-          [
-            "d59fbe7a.ec413",
-            "895075f6.079d"
-          ]
-        ]
-      },
-      {
-        "id": "d59fbe7a.ec413",
-        "type": "function",
-        "z": "55e07e93.2f83c",
-        "name": "build follower list",
-        "func": "if (msg.payload.errors !== undefined ){\n    if (msg.payload.errors[0] !== undefined ){\n        // do nothing\n    }\n} else {\n    flow.set(\"twitterCursor\", msg.payload.next_cursor);\n\n    // load the exiting list from the flow variable to be saved later in the Cloudant database\n    var savedFollowers  = [];\n    savedFollowers = flow.get(\"savedFollowers\");\n    \n    var users = [];\n    // load the response data from the twitter request users\n    users = msg.payload.users;\n    \n\n    // build the customized follower list \n    var follower = {};\n    for (var i=0; i<50; i++){\n        \n       if( users[i] !== undefined) {\n         follower.username = users[i].name;\n         follower.screen_name = users[i].screen_name;\n         savedFollowers.push(follower);\n         follower = {};\n       } else {\n           i = 50;\n       }\n    }\n    \n    flow.set(\"savedFollowers\",savedFollowers);\n    followers = [];\n    \n}\n\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "x": 470,
-        "y": 1020,
-        "wires": [
-          [
-            "29fbdbce.737a74",
-            "2ea164a8.e1f914"
-          ]
-        ]
-      },
-      {
-        "id": "29fbdbce.737a74",
-        "type": "switch",
-        "z": "55e07e93.2f83c",
-        "name": "",
-        "property": "payload.next_cursor",
-        "propertyType": "msg",
-        "rules": [
-          {
-            "t": "gt",
-            "v": "0",
-            "vt": "num"
-          },
-          {
-            "t": "eq",
-            "v": "0",
-            "vt": "num"
-          }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 2,
-        "x": 430,
-        "y": 1180,
-        "wires": [
-          [
-            "9477bd6c.38f748"
-          ],
-          [
-            "3e725a29.d4b39e"
-          ]
-        ]
-      },
-      {
-        "id": "3e725a29.d4b39e",
-        "type": "function",
-        "z": "55e07e93.2f83c",
-        "name": "end",
-        "func": "msg.payload.message = \"end, no additional followers\";\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "x": 630,
-        "y": 1200,
-        "wires": [
-          [
-            "acf23bc2.b325a8",
-            "977e00aa.f6a558"
-          ]
-        ]
-      },
-      {
-        "id": "9477bd6c.38f748",
-        "type": "function",
-        "z": "55e07e93.2f83c",
-        "name": "move on",
-        "func": "msg.payload.message = \"move on - next page\";\n\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "x": 640,
-        "y": 1160,
-        "wires": [
-          [
-            "acf23bc2.b325a8",
-            "a470e4ba.e78688"
-          ]
-        ]
-      },
-      {
-        "id": "895075f6.079d",
-        "type": "debug",
-        "z": "55e07e93.2f83c",
-        "name": "all data",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "payload",
-        "targetType": "msg",
-        "x": 300,
-        "y": 1060,
-        "wires": []
-      },
-      {
-        "id": "2ea164a8.e1f914",
-        "type": "debug",
-        "z": "55e07e93.2f83c",
-        "name": "cursor",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "payload",
-        "targetType": "msg",
-        "x": 1010,
-        "y": 1020,
-        "wires": []
-      },
-      {
-        "id": "943ee12f.415d5",
-        "type": "function",
-        "z": "55e07e93.2f83c",
-        "name": "set_bearer_token",
-        "func": "// Set token before loop\nflow.set(\"bearer_token\", \"Bearer \" + msg.payload.access_token);\nvar followers = [];\n// Init the follower list for the flow\nflow.set(\"savedFollowers\", followers)\n\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "x": 210,
-        "y": 940,
-        "wires": [
-          [
-            "a470e4ba.e78688"
-          ]
-        ]
-      },
-      {
-        "id": "977e00aa.f6a558",
-        "type": "function",
-        "z": "55e07e93.2f83c",
-        "name": "build follower name list",
-        "func": "var savedFollowers = [];\n    savedFollowers = flow.get(\"savedFollowers\");\n    \nvar data = {};\nvar twitterFollowers = {}; \n\nvar date = new Date();\n\ntwitterFollowers.date = date.getFullYear() + \".\" + \n            (date.getMonth() + 1) + \".\" + \n            date.getDate();\ntwitterFollowers.time = date.getTime(); \ntwitterFollowers.count = savedFollowers.length; \n            \ntwitterFollowers.followers = savedFollowers;\ndata.twitterFollowers = twitterFollowers;\n\n\nvar reset = [];\nflow.set(\"followers\", reset);\nflow.set(\"savedFollowers\", reset);\n\nmsg.payload = data;\n\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "x": 690,
-        "y": 1260,
-        "wires": [
-          [
-            "9ab75289.0fc7d"
-          ]
-        ]
-      },
-      {
-        "id": "9ab75289.0fc7d",
-        "type": "debug",
-        "z": "55e07e93.2f83c",
-        "name": "",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "false",
-        "x": 1030,
-        "y": 1260,
-        "wires": []
-      },
-      {
-        "id": "dc8c7588.f072e8",
-        "type": "comment",
-        "z": "55e07e93.2f83c",
-        "name": "Two step authentication",
-        "info": "",
-        "x": 140,
-        "y": 600,
-        "wires": []
-      },
-      {
-        "id": "e7525e4e.605ba",
-        "type": "comment",
-        "z": "55e07e93.2f83c",
-        "name": "Verify end of follower list",
-        "info": "",
-        "x": 230,
-        "y": 1140,
-        "wires": []
-      },
-      {
-        "id": "56b42a38.cd9c64",
-        "type": "function",
-        "z": "55e07e93.2f83c",
-        "name": "set user and secret",
-        "func": "var user = \"TWITTER-KEY\";\nvar secret = \"TWITTER-KEY-SECRET\"\nvar nodereduser = \"admin\";\nvar noderedpassword = \"notreallysecure\"\n\nflow.set(\"nodereduser\", nodereduser);\nflow.set(\"noderedpassword\", noderedpassword);\n\nmsg.payload = user + \":\" + secret;\n\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "x": 210,
-        "y": 720,
-        "wires": [
-          []
-        ]
-      },
-      {
-        "id": "c666ed0c.52b4c8",
-        "type": "comment",
-        "z": "55e07e93.2f83c",
-        "name": "Request next page",
-        "info": "",
-        "x": 770,
-        "y": 1060,
-        "wires": []
-      },
-      {
-        "id": "9a8218da.0dd99",
-        "type": "comment",
-        "z": "55e07e93.2f83c",
-        "name": "---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------",
-        "info": "",
-        "x": 680,
-        "y": 460,
-        "wires": []
-      },
-      {
-        "id": "76fd18df.91c21",
-        "type": "comment",
-        "z": "55e07e93.2f83c",
-        "name": "REST Endpoints",
-        "info": "",
-        "x": 120,
-        "y": 140,
-        "wires": []
-      },
-      {
-        "id": "6e78c4cb.309a64",
-        "type": "comment",
-        "z": "55e07e93.2f83c",
-        "name": "Automation to get followers using the REST endpoints",
-        "info": "",
-        "x": 240,
-        "y": 500,
-        "wires": []
-      },
-      {
-        "id": "400c83fe.6b2004",
-        "type": "comment",
-        "z": "55e07e93.2f83c",
-        "name": "Step 1: Authenticate with key and secret to get bearer token",
-        "info": "",
-        "x": 340,
-        "y": 660,
-        "wires": []
-      },
-      {
-        "id": "2ec23f4.e830c4",
-        "type": "comment",
-        "z": "55e07e93.2f83c",
-        "name": "Step 2: Authenticate with bearer token to get the follower list",
-        "info": "",
-        "x": 340,
-        "y": 900,
-        "wires": []
-      },
-      {
-        "id": "1b538e36.0eda12",
-        "type": "debug",
-        "z": "55e07e93.2f83c",
-        "name": "getToken HTTP input",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "x": 720,
-        "y": 180,
-        "wires": []
-      },
-      {
-        "id": "3fa0044.d739e7c",
-        "type": "switch",
-        "z": "55e07e93.2f83c",
-        "name": "",
-        "property": "valid_request",
-        "propertyType": "msg",
-        "rules": [
-          {
-            "t": "eq",
-            "v": "1",
-            "vt": "num"
-          },
-          {
-            "t": "lt",
-            "v": "1",
-            "vt": "num"
-          }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 2,
-        "x": 670,
-        "y": 240,
-        "wires": [
-          [
-            "40b26ed3.a8055"
-          ],
-          [
-            "f66e9d25.093328"
-          ]
-        ]
-      },
-      {
-        "id": "f66e9d25.093328",
-        "type": "function",
-        "z": "55e07e93.2f83c",
-        "name": "not a valid user",
-        "func": "msg.payload = { \"error\": \"unknown user\"};\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "x": 860,
-        "y": 280,
-        "wires": [
-          [
-            "524852f0.ac63ac"
-          ]
-        ]
-      },
-      {
-        "id": "863f0ed1.9952e",
-        "type": "switch",
-        "z": "55e07e93.2f83c",
-        "name": "",
-        "property": "valid_request",
-        "propertyType": "msg",
-        "rules": [
-          {
-            "t": "eq",
-            "v": "1",
-            "vt": "num"
-          },
-          {
-            "t": "lt",
-            "v": "1",
-            "vt": "num"
-          }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 2,
-        "x": 670,
-        "y": 380,
-        "wires": [
-          [
-            "353a2edf.70e42a"
-          ],
-          [
-            "b3d20da4.aeed2"
-          ]
-        ]
-      },
-      {
-        "id": "b3d20da4.aeed2",
-        "type": "function",
-        "z": "55e07e93.2f83c",
-        "name": "not a valid user",
-        "func": "msg.payload = { \"error\": \"unknown user\"};\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "x": 860,
-        "y": 420,
-        "wires": [
-          [
-            "8ecb7347.fe94c8"
-          ]
-        ]
-      },
-      {
-        "id": "6a39ca6b.a66b14",
-        "type": "function",
-        "z": "37936665.16762a",
-        "name": "log list",
-        "func": "if (msg.payload.errors !== undefined ){\n    if (msg.payload.errors[0] !== undefined ){\n        // do nothing\n    }\n} else {\n    var savedLog  = [];\n    savedLog = msg.payload;\n    \n    var logs = [];\n    count = savedLog.length;\n    \n    var log = {};\n    for (var i=0; i<count; i++){\n        \n       if( savedLog[i] !== undefined) {\n         log.message = savedLog[i].log.message;\n         log.info = savedLog[i].info;\n         log.type = savedLog[i].type;\n         log.date = savedLog[i].date;\n         logs.push(log);\n         log = {};\n       } else {\n           i = count;\n       }\n    }\n    \n    msg.payload = logs;\n}\n\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "x": 650,
-        "y": 220,
-        "wires": [
-          [
-            "a517b8aa.dc1a38",
-            "5ff2a7e0.f24d38",
-            "4963a759.9cdc78"
-          ]
-        ]
-      },
-      {
-        "id": "5ff2a7e0.f24d38",
-        "type": "ui_table",
-        "z": "37936665.16762a",
-        "group": "822ad774.04b048",
-        "name": "Main table",
-        "order": 2,
-        "width": "0",
-        "height": "0",
-        "columns": [
-          {
-            "field": "date",
-            "title": "Date",
-            "width": "",
-            "align": "left",
-            "formatter": "plaintext",
-            "formatterParams": {
-              "target": "_blank"
-            }
-          },
-          {
-            "field": "message",
-            "title": "Message",
-            "width": "",
-            "align": "left",
-            "formatter": "plaintext",
-            "formatterParams": {
-              "target": "_blank"
-            }
-          },
-          {
-            "field": "type",
-            "title": "Type",
-            "width": "",
-            "align": "left",
-            "formatter": "plaintext",
-            "formatterParams": {
-              "target": "_blank"
-            }
-          },
-          {
-            "field": "info",
-            "title": "Information",
-            "width": "",
-            "align": "left",
-            "formatter": "plaintext",
-            "formatterParams": {
-              "target": "_blank"
-            }
-          }
-        ],
-        "outputs": 1,
-        "cts": true,
-        "x": 830,
-        "y": 300,
-        "wires": [
-          []
-        ]
-      },
-      {
-        "id": "fdd67d7e.8c81",
-        "type": "ui_button",
-        "z": "37936665.16762a",
-        "name": "",
-        "group": "822ad774.04b048",
-        "order": 4,
-        "width": 0,
-        "height": 0,
-        "passthru": false,
-        "label": "Access denied",
-        "tooltip": "",
-        "color": "",
-        "bgcolor": "",
-        "icon": "",
-        "payload": "{\"theMessage\":\"Access denied*\", \"limit\": \"200\" }",
-        "payloadType": "json",
-        "topic": "",
-        "x": 120,
-        "y": 320,
-        "wires": [
-          [
-            "59798b72.318254"
-          ]
-        ]
-      },
-      {
-        "id": "5be37c90.476904",
-        "type": "ui_button",
-        "z": "37936665.16762a",
-        "name": "",
-        "group": "822ad774.04b048",
-        "order": 3,
-        "width": 0,
-        "height": 0,
-        "passthru": false,
-        "label": "Get access code",
-        "tooltip": "",
-        "color": "",
-        "bgcolor": "",
-        "icon": "",
-        "payload": "{\"theInfo\":\"getAccessCode\", \"limit\": \"200\" }",
-        "payloadType": "json",
-        "topic": "",
-        "x": 130,
-        "y": 360,
-        "wires": [
-          [
-            "59798b72.318254"
-          ]
-        ]
-      },
-      {
-        "id": "4963a759.9cdc78",
-        "type": "ui_text",
-        "z": "37936665.16762a",
-        "group": "822ad774.04b048",
-        "order": 1,
-        "width": 0,
-        "height": 0,
-        "name": "",
-        "label": "Count",
-        "format": "{{msg.payload.length}}",
-        "layout": "row-left",
-        "x": 810,
-        "y": 340,
-        "wires": []
       }
-    ]
+  },
+  {
+      "id": "ec723ee8.bf683",
+      "type": "ui_group",
+      "name": "User",
+      "tab": "82941cb0.0ebd68",
+      "order": 1,
+      "disp": true,
+      "width": "6",
+      "collapse": false
+  },
+  {
+      "id": "b1b11140.4e4ef",
+      "type": "inject",
+      "z": "61c16fe7.def758",
+      "name": "",
+      "repeat": "",
+      "crontab": "",
+      "once": false,
+      "topic": "",
+      "payload": "Hello Node-RED!",
+      "payloadType": "string",
+      "x": 141,
+      "y": 61,
+      "wires": [
+          [
+              "f2f2649a.0d0d98"
+          ]
+      ]
+  },
+  {
+      "id": "f2f2649a.0d0d98",
+      "type": "debug",
+      "z": "61c16fe7.def758",
+      "name": "",
+      "active": true,
+      "tosidebar": true,
+      "console": false,
+      "tostatus": false,
+      "complete": "payload",
+      "targetType": "msg",
+      "statusVal": "",
+      "statusType": "auto",
+      "x": 390,
+      "y": 60,
+      "wires": []
+  },
+  {
+      "id": "a08a43b9.0358e8",
+      "type": "inject",
+      "z": "61c16fe7.def758",
+      "name": "data input",
+      "props": [
+          {
+              "p": "payload"
+          }
+      ],
+      "repeat": "",
+      "crontab": "",
+      "once": false,
+      "onceDelay": 0.1,
+      "topic": "",
+      "payload": "{\"user\":{\"firstname\":\"Thomas\",\"lastname\":\"Suedbroecker\",\"country\":\"Germany\"}}",
+      "payloadType": "json",
+      "x": 120,
+      "y": 280,
+      "wires": [
+          [
+              "d3a771fa.776c58"
+          ]
+      ]
+  },
+  {
+      "id": "d3a771fa.776c58",
+      "type": "cloudant out",
+      "z": "61c16fe7.def758",
+      "name": "",
+      "cloudant": "",
+      "database": "absolute-beginner",
+      "service": "node-red-example-cloudant-1610885358891-55106",
+      "payonly": true,
+      "operation": "insert",
+      "x": 400,
+      "y": 280,
+      "wires": []
+  },
+  {
+      "id": "b63a303.6a3eed",
+      "type": "inject",
+      "z": "61c16fe7.def758",
+      "name": "",
+      "props": [
+          {
+              "p": "payload"
+          },
+          {
+              "p": "topic",
+              "vt": "str"
+          }
+      ],
+      "repeat": "",
+      "crontab": "",
+      "once": false,
+      "onceDelay": 0.1,
+      "topic": "",
+      "payload": "",
+      "payloadType": "date",
+      "x": 120,
+      "y": 360,
+      "wires": [
+          [
+              "b7799190.229908"
+          ]
+      ]
+  },
+  {
+      "id": "b7799190.229908",
+      "type": "cloudant in",
+      "z": "61c16fe7.def758",
+      "name": "",
+      "cloudant": "",
+      "database": "absolute-beginner",
+      "service": "node-red-example-cloudant-1610885358891-55106",
+      "search": "_all_",
+      "design": "",
+      "index": "",
+      "x": 410,
+      "y": 360,
+      "wires": [
+          [
+              "e359f079.3a9d7"
+          ]
+      ]
+  },
+  {
+      "id": "20783e08.6e40ea",
+      "type": "debug",
+      "z": "61c16fe7.def758",
+      "name": "",
+      "active": true,
+      "tosidebar": true,
+      "console": false,
+      "tostatus": false,
+      "complete": "false",
+      "statusVal": "",
+      "statusType": "auto",
+      "x": 810,
+      "y": 420,
+      "wires": []
+  },
+  {
+      "id": "90c0ae3.898d35",
+      "type": "inject",
+      "z": "61c16fe7.def758",
+      "name": "search Firstname",
+      "props": [
+          {
+              "p": "payload"
+          }
+      ],
+      "repeat": "",
+      "crontab": "",
+      "once": false,
+      "onceDelay": 0.1,
+      "topic": "",
+      "payload": "{\"theFirstname\":\"T*\",\"limit\":\"200\"}",
+      "payloadType": "json",
+      "x": 130,
+      "y": 440,
+      "wires": [
+          [
+              "9c9de9a1.707af8"
+          ]
+      ]
+  },
+  {
+      "id": "7f1af07d.c9d468",
+      "type": "inject",
+      "z": "61c16fe7.def758",
+      "name": "search Lastname",
+      "props": [
+          {
+              "p": "payload"
+          }
+      ],
+      "repeat": "",
+      "crontab": "",
+      "once": false,
+      "onceDelay": 0.1,
+      "topic": "",
+      "payload": "{\"theLastname\":\"S*\", \"limit\": \"200\" }",
+      "payloadType": "json",
+      "x": 130,
+      "y": 500,
+      "wires": [
+          [
+              "9c9de9a1.707af8"
+          ]
+      ]
+  },
+  {
+      "id": "e6211025.598b7",
+      "type": "inject",
+      "z": "61c16fe7.def758",
+      "name": "search Country",
+      "props": [
+          {
+              "p": "payload"
+          }
+      ],
+      "repeat": "",
+      "crontab": "",
+      "once": false,
+      "onceDelay": 0.1,
+      "topic": "",
+      "payload": "{\"theCountry\":\"G*\", \"limit\": \"200\" }",
+      "payloadType": "json",
+      "x": 130,
+      "y": 560,
+      "wires": [
+          [
+              "9c9de9a1.707af8"
+          ]
+      ]
+  },
+  {
+      "id": "9c9de9a1.707af8",
+      "type": "cloudant in",
+      "z": "61c16fe7.def758",
+      "name": "",
+      "cloudant": "",
+      "database": "absolute-beginner",
+      "service": "node-red-example-cloudant-1610885358891-55106",
+      "search": "_idx_",
+      "design": "_d_searchindex",
+      "index": "_searchindex",
+      "x": 410,
+      "y": 500,
+      "wires": [
+          [
+              "e359f079.3a9d7"
+          ]
+      ]
+  },
+  {
+      "id": "73d7fcf6.69a764",
+      "type": "ui_form",
+      "z": "61c16fe7.def758",
+      "name": "",
+      "label": "Insert a new User",
+      "group": "ec723ee8.bf683",
+      "order": 0,
+      "width": 0,
+      "height": 0,
+      "options": [
+          {
+              "label": "Firstname",
+              "value": "firstname",
+              "type": "text",
+              "required": true,
+              "rows": null
+          },
+          {
+              "label": "Lastname",
+              "value": "lastname",
+              "type": "text",
+              "required": true,
+              "rows": null
+          },
+          {
+              "label": "Country",
+              "value": "country",
+              "type": "text",
+              "required": true,
+              "rows": null
+          }
+      ],
+      "formValue": {
+          "firstname": "",
+          "lastname": "",
+          "country": ""
+      },
+      "payload": "",
+      "submit": "submit",
+      "cancel": "cancel",
+      "topic": "msg.payload.user",
+      "x": 150,
+      "y": 200,
+      "wires": [
+          [
+              "a15e804f.afb218"
+          ]
+      ]
+  },
+  {
+      "id": "a15e804f.afb218",
+      "type": "function",
+      "z": "61c16fe7.def758",
+      "name": "",
+      "func": "var data = {};\ndata.user = msg.payload;\nmsg.payload = data;\nreturn msg;",
+      "outputs": 1,
+      "noerr": 0,
+      "initialize": "",
+      "finalize": "",
+      "x": 370,
+      "y": 200,
+      "wires": [
+          [
+              "f128a1e.063696",
+              "d3a771fa.776c58"
+          ]
+      ]
+  },
+  {
+      "id": "f128a1e.063696",
+      "type": "debug",
+      "z": "61c16fe7.def758",
+      "name": "",
+      "active": true,
+      "tosidebar": true,
+      "console": false,
+      "tostatus": false,
+      "complete": "false",
+      "statusVal": "",
+      "statusType": "auto",
+      "x": 590,
+      "y": 200,
+      "wires": []
+  },
+  {
+      "id": "e359f079.3a9d7",
+      "type": "function",
+      "z": "61c16fe7.def758",
+      "name": "",
+      "func": "if (msg.payload.errors !== undefined ){\n    if (msg.payload.errors[0] !== undefined ){\n        // do nothing\n    }\n} else {\n    var userstemp  = [];\n    userstemp = msg.payload;\n    \n    var users = [];\n    count =  userstemp.length;\n    \n    var user = {};\n    for (var i=0; i<count; i++){\n        \n       if( userstemp[i] !== undefined) {\n         user.firstname = userstemp[i].user.firstname;\n         user.lastname = userstemp[i].user.lastname;\n         user.country = userstemp[i].user.country;\n         users.push(user);\n         user = {};\n       } else {\n           i = count;\n       }\n    }\n    \n    msg.payload = users;\n}\n\nreturn msg;",
+      "outputs": 1,
+      "noerr": 0,
+      "initialize": "",
+      "finalize": "",
+      "x": 640,
+      "y": 420,
+      "wires": [
+          [
+              "20783e08.6e40ea",
+              "93e15a2.f25f0a8"
+          ]
+      ]
+  },
+  {
+      "id": "93e15a2.f25f0a8",
+      "type": "ui_table",
+      "z": "61c16fe7.def758",
+      "group": "ec723ee8.bf683",
+      "name": "Users",
+      "order": 1,
+      "width": 0,
+      "height": 0,
+      "columns": [
+          {
+              "field": "firstname",
+              "title": "Firstname",
+              "width": "",
+              "align": "left",
+              "formatter": "plaintext",
+              "formatterParams": {
+                  "target": "_blank"
+              }
+          },
+          {
+              "field": "lastname",
+              "title": "Lastname",
+              "width": "",
+              "align": "left",
+              "formatter": "plaintext",
+              "formatterParams": {
+                  "target": "_blank"
+              }
+          },
+          {
+              "field": "country",
+              "title": "Country",
+              "width": "",
+              "align": "left",
+              "formatter": "plaintext",
+              "formatterParams": {
+                  "target": "_blank"
+              }
+          }
+      ],
+      "outputs": 0,
+      "cts": false,
+      "x": 800,
+      "y": 360,
+      "wires": []
   }
+]
