@@ -1,3 +1,5 @@
+# Add a input form
+
 ### Step 1: Add a UI input from to the flow
 
 ![](../images/add-input-form-00.png)

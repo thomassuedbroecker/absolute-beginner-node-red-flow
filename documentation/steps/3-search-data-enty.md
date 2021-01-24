@@ -8,6 +8,8 @@
 
 ### Step 3: Press the newly created inject node and watch the output in the debug tab
 
+# Search for data
+
 ### Step 4: Open the cloudant database `absolute-beginner` and create a new design document
 
 Insert following JSON as a new document:

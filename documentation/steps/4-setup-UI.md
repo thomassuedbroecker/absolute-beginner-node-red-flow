@@ -1,3 +1,5 @@
+# Setup the UI 
+
 ### Step 1: Add [Node-RED dashboard](https://flows.nodered.org/node/node-red-dashboard) and [Node-RED UI Table](https://flows.nodered.org/node/node-red-node-ui-table)
 
 * Open `Manage palette`

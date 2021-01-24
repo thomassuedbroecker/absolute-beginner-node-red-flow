@@ -1,3 +1,5 @@
+# Create a data entry
+
 ### Step 1: Configure the inject node to create JSON values
 
 ![](../images/insert-data-00.png)

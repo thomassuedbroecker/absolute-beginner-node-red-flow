@@ -39,3 +39,5 @@ return msg;
 ### Step 2: Configure the table UI
 
 ![](../images/setup-table-01.png)
+
+### Step 3: Press deploy

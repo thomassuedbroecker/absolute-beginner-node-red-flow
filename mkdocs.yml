@@ -13,8 +13,9 @@ docs_dir: documentation
 nav:
   - Welcome:
     - Overview: README.md
+    
   - Setup:
-    - Create data entry: steps/1-create-data.md
+    - Create a data entry: steps/1-create-data.md
     - Get data entries: steps/2-get-data.md.md
     - Search data entry: steps/3-search-data-enty.md
     - Setup UI: steps/4-setup-UI.md

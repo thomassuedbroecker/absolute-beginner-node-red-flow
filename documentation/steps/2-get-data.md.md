@@ -1,3 +1,5 @@
+# Get data
+
 ### Step 1: Add a `inject node`, `cloudant in` and a `debug node` to the flow
 
 ### Step 2: Wire the nodes and configure the `cloudant in` node
