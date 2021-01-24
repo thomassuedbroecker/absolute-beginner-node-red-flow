@@ -12,8 +12,7 @@ docs_dir: documentation
 # Navigation
 nav:
   - Welcome:
-    - Overview: README.md
-    
+    - Overview: README.md   
   - Setup:
     - Create a data entry: steps/1-create-data.md
     - Get data entries: steps/2-get-data.md.md
