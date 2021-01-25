@@ -7,9 +7,9 @@ Covering following main topics:
 
 <https://thomassuedbroecker.github.io/absolute-beginner-node-red-flow/>
 
-# MkDocs installation on Mac and integration into GitHub
+# How to install MkDocs on Mac and setup integration with GitHub?
 
-These are simplified steps to setup a MkDocs for your GitHub project.
+The project contains the simplified steps to setup a MkDocs for your GitHub project.
 
 ### Local setup:
 
