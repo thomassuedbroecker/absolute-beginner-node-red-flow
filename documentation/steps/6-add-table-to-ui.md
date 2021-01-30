@@ -1,8 +1,14 @@
-### Step 1: Add a UI table to the flow and function to the flow
+# Add  `table` to the UI
+
+In this table we will display our data form the database.
+
+![](../images/setup-table-00-a.png)
+
+### Step 1: Add UI `table` and `function` node to the flow
 
 ![](../images/setup-table-00.png)
 
-* Insert in the function node and insert following code
+* Insert in the `function node` and insert following code
 
 ```javascript
 if (msg.payload.errors !== undefined ){
@@ -37,6 +43,10 @@ return msg;
 ```
 
 ### Step 2: Configure the table UI
+
+* Group: `Table`
+* Properties: `firstname`, `lastname` and `country`.
+* Titles: `Firstname`, `Lastname` and `Country`.
 
 ![](../images/setup-table-01.png)
 

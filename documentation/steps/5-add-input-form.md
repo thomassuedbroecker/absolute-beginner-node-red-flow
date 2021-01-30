@@ -1,10 +1,16 @@
-# Add a input form
+# Add a `input form`
 
-### Step 1: Add a UI input from to the flow
+![](../images/search-data-01-g.png)
+
+### Step 1: Configure the UI input `form`
 
 ![](../images/add-input-form-00.png)
 
-### Step 2: Configure the UI input from
+### Step 2: Configure the UI input `form`
+
+Remember the structure of the UI elements.
+
+![](../images/setup-ui-00-a.png)
 
 * Add a group with the name `user`
 
@@ -18,7 +24,7 @@
 
 ![](../images/add-input-form-03.png)
 
-* Give UI from a name `Insert a new User` and add the input fields for firstname, lastname and country
+* Give the UI from a name `Insert a new User` and add the input fields for firstname, lastname and country
 
 ![](../images/add-input-form-04.png)
 
@@ -35,7 +41,7 @@ return msg;
 
 * Press deploy
 
-### Step 7: Open in a new browser tab `https://your-host/ui/
+### Step 7: Open in a new browser tab `https://[your-host]/ui/`
 
 ![](../images/add-input-form-05.png)
 

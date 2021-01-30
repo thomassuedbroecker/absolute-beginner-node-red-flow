@@ -11,17 +11,22 @@ docs_dir: documentation
 
 # Navigation
 nav:
-  - Welcome:
-    - Overview: README.md   
-  - Setup:
-    - Create a data entry: steps/1-create-data.md
+  - Introduction: README.md   
+  - Detailed setup steps:
+    - Create data entries: steps/1-create-data.md
     - Get data entries: steps/2-get-data.md.md
-    - Search data entry: steps/3-search-data-enty.md
+    - Search for the entries: steps/3-search-data-entries.md
     - Setup UI: steps/4-setup-UI.md
     - Add input form: steps/5-add-input-form.md
-    - Add table to UI: steps/6-add-table-to-ui.md
+    - Add table to the UI: steps/6-add-table-to-ui.md
+    - Add examle search to UI: steps/7-add-search-to-ui.md
+    - Export flow: steps/8-export.md
+  - Import flow: import/1-import.md 
   - References:
     - Node-RED: https://nodered.org
+    - Setup Node-RED on IBM Cloud: https://suedbroecker.net/2020/03/09/a-short-introduction-of-the-node-red-starter-kit-on-ibm-cloud-for-hackathons/
+    - Handle CORS in your Node-RED instance on IBM Cloud: https://suedbroecker.net/2019/03/13/cors-and-node-red-using-a-simple-forward-server/
+    - REST endpoints, authentication to external API, extract data from API, customize data and CRUD: https://suedbroecker.net/2020/03/26/a-node-red-twitter-follower-flow/
 
 ## DO NOT CHANGE BELOW THIS LINE
 

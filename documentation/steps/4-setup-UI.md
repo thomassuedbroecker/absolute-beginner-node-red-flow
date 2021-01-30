@@ -1,6 +1,13 @@
 # Setup the UI 
 
-### Step 1: Add [Node-RED dashboard](https://flows.nodered.org/node/node-red-dashboard) and [Node-RED UI Table](https://flows.nodered.org/node/node-red-node-ui-table)
+To setup a UI in Node-RED we use the [Node-RED dashboard](https://flows.nodered.org/node/node-red-dashboard)
+and [Node-RED UI Table](https://flows.nodered.org/node/node-red-node-ui-table).
+
+The Node-RED dashboard uses `Tab`, `Group` and `Node element` structure and organized the UI Node elements. In the pricture below we see the dependencies.
+
+![](../images/setup-ui-00-a.png)
+
+### Step 1: Install the [Node-RED dashboard](https://flows.nodered.org/node/node-red-dashboard) and [Node-RED UI Table](https://flows.nodered.org/node/node-red-node-ui-table)
 
 * Open `Manage palette`
 
