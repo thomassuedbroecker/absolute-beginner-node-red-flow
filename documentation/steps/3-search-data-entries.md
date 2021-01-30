@@ -7,7 +7,7 @@ We will create file additional nodes. Three `inject`, two `cloudant in` and one 
 
 _Note:_ When we will query for data we need to ensure we save the data in the right format.
 
-## Configure the Cloudant data
+## Configure a search index
 
 We need to create a design document to define a [search index](https://cloud.ibm.com/docs/Cloudant?topic=Cloudant-query) we will later use our queries.
 
