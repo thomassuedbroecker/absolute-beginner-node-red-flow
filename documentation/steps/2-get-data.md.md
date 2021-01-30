@@ -1,6 +1,7 @@
 # Get data entries
 
-Now we will just load all existing data entries from our Cloudant database, with a simple configuration.
+Now we will load all existing data entries from our Cloudant database.
+We will use a simple configuration.
 
 ### Step 1: Add a `inject node`, `cloudant in` and a `debug node` to the flow
 

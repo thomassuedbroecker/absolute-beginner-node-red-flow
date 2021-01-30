@@ -1,4 +1,4 @@
-# Add a `input form`
+# Add a input `form`
 
 ![](../images/search-data-01-g.png)
 
@@ -44,7 +44,6 @@ return msg;
 ### Step 7: Open in a new browser tab `https://[your-host]/ui/`
 
 ![](../images/add-input-form-05.png)
-
 
 ### Step 8: Insert a name and press `SUBMIT`
 

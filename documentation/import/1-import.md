@@ -1,6 +1,6 @@
 # Import existing Node-RED flow
 
-### Step 1: Copy the content from file [node-red-flow/basic-flow-flow.json](https://github.com/thomassuedbroecker/absolute-beginner-node-red-flow/blob/master/node-red-flow/basic-flow.json)
+### Step 1: Copy the content of the file [node-red-flow/basic-flow-flow.json](https://github.com/thomassuedbroecker/absolute-beginner-node-red-flow/blob/master/node-red-flow/basic-flow.json)
 
 ![](../images/import-00.png)
 

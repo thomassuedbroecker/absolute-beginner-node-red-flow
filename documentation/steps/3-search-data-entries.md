@@ -1,7 +1,6 @@
 # Search for the entries
 
-To search for data entries in our Cloudant database, we need to create a design document to define a [search index](https://cloud.ibm.com/docs/Cloudant?topic=Cloudant-query) we will use in our queries.
-We will create file additional nodes. Three `inject`, two `cloudant in` and one `debug` node.
+To search for data entries in our Cloudant database, we need to create a design document to define a [search index](https://cloud.ibm.com/docs/Cloudant?topic=Cloudant-query), that search index we will use in our queries. We create file additional nodes in our flow. Three `inject`, two `cloudant in` and one `debug` node.
 
 ![](../images/search-data-01-b.png)
 
@@ -15,7 +14,7 @@ We need to create a design document to define a [search index](https://cloud.ibm
 * theLastname
 * theCountry
 
-Example usage of a query `theLastname:S*` later:
+Example usage of a query `theLastname:S*`:
 
 ![](../images/search-data-01-a.png)
 

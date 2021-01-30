@@ -1,6 +1,6 @@
 # Configure a search index
 
-We need to create a design document to define a [search index](https://cloud.ibm.com/docs/Cloudant?topic=Cloudant-query) we will later use our queries.
+We need to create a design document to define a [search index](https://cloud.ibm.com/docs/Cloudant?topic=Cloudant-query) we will later use this index our queries.
 
 * theFirstname
 * theLastname

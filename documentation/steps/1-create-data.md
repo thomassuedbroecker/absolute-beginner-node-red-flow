@@ -7,15 +7,14 @@ In this part we create an `inject node` and a `cloudant out` node.
 > **Background**: 
 > In our situation we use Node-RED on IBM Cloud with and Cloudant service instance, which contains a database to save the flows and more for our Node-RED instance. We use Cloud Foundry as runtime for Node-RED instance and with existing Cloudant service binding, we easly can resue existing Cloudant service to create our `absolute beginner database` by using a `cloudant out` node.
 
-The image below shows the dependencies with two screens shots.
+The image below shows the dependencies of `application`, `binding` and `database service.
 
 ![](../images/insert-data-00-a.png)
 
 
-### Step 1: Configure the `inject node` to create a JSON value
+### Step 1: Configure the `inject` node to create a JSON value
 
 ![](../images/insert-data-00.png)
-
 
 ### Step 2: Insert into the `inject node` following JSON
 
@@ -28,7 +27,7 @@ The image below shows the dependencies with two screens shots.
 }
 ```
 
-### Step 3: Add a `[Cloudant Node](https://flows.nodered.org/node/node-red-node-cf-cloudant)`  and give the database the name: `absolute beginner`
+### Step 3: Add a `[cloudant out](https://flows.nodered.org/node/node-red-node-cf-cloudant)` node and give the database the name: `absolute beginner`
 
 ![](../images/insert-data-01.png)
 
