@@ -32,7 +32,7 @@ That’s motivated me to create this example project, which provides an example 
 
 ### Objectives
 
-You should be able to use your Node-RED instance on IBM Cloud to
+After the setup of the example should be able to use your Node-RED instance on IBM Cloud to
 
 * ... save data in a [Cloudant database](https://cloud.ibm.com/docs/Cloudant?topic=Cloudant-databases) within you Node-RED installation on IBM Cloud
 * ... search for data entries using [Cloudant database query](https://cloud.ibm.com/docs/Cloudant?topic=Cloudant-query)
