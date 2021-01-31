@@ -20,7 +20,7 @@ nav:
     - Setup dashboard UI: steps/4-setup-UI.md
     - Add input form: steps/5-add-input-form.md
     - Add table: steps/6-add-table-to-ui.md
-    - Add examle search: steps/7-add-search-to-ui.md
+    - Add example search: steps/7-add-search-to-ui.md
     - Export flow: steps/8-export.md
   - Import flow:
     - Setup dashbord: import/0-install-nodes.md 

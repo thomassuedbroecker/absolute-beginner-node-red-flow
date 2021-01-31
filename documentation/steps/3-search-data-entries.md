@@ -45,6 +45,9 @@ Example usage of a query `theLastname:S*`:
 
 ### Step 3: Insert following JSON to create the needed design document
 
+* Design document name: `_d_searchindex`
+* Index name: `_searchindex`
+
 ```json
 {
   "_id": "_design/_d_searchindex",
@@ -91,7 +94,7 @@ The image shows the new design document.
 
 ```json
 {
-    "theContry": "S*",
+    "theContry": "G*",
     "limit": "200"
 }
 ```
@@ -100,9 +103,9 @@ The image shows the new design document.
 
 ### Step 6: Configure the new `cloudant in` node
 
-* Database: `absolute-beginner`
+* Database name: `absolute-beginner`
 * Search by: `search index`
-* Design document: `_d_searchindex`
+* Design document name: `_d_searchindex`
 * Index name: `_searchindex`
 
 ![](../images/search-data-01-f.png)
