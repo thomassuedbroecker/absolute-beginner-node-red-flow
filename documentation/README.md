@@ -5,8 +5,8 @@ The documentation guides you to following main topics in Node-RED:
 
 How to ...
 
-* ... save data in database?
-* ... search for entries in the database?
+* ... save data in a database?
+* ... search for entries in a database?
 * ... display data in a UI?
 
 The flowing gif shows the usage of final flow implementation in Node-RED.
@@ -15,10 +15,12 @@ The flowing gif shows the usage of final flow implementation in Node-RED.
 
 ### Motivation
 
-The background for that example project is following: When I support Hackathons I notice there's often a leak of programming knowledge and building UIs. If this is the case, then Node-RED is a perfect starting point to realize a prototype at a hackathon.
+The motivation for that example project is: When I support Hackathons I notice there's often a leak of programming knowledge and building UIs. If this is the case, then Node-RED is a perfect starting point to realize a prototype at a hackathon.
 The **dashboard** of Node-RED is a awesome way to build a UI, but there was a _"out of the box"_ Node missing to simply to add a **tables**. Now I found a very useful Node that’s create a table inside a Node-RED dashboard.
 
-That’s motivated me to create this example project, which provides an example a to build a simple application from scratch, which contains the main functionalities to insert data, display data in a table and search for values.
+That’s motivated me to create this example project, which provides an example a to build a simple application from scratch, which contains the main functionalities to insert data, display data in a table and search for values, as you see in the gif below.
+
+![](../images/absolute-beginner-ui.gif)
 
 ### Estimated time and level
 

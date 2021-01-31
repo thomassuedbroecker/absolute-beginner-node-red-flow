@@ -30,7 +30,9 @@ Remember the structure of the UI elements.
 
 ![](../images/add-input-form-04.png)
 
-* Add a function node and insert following code and wire the nodes
+* Add a `function` node and insert following code and wire the nodes
+
+The code ensures that the data will be save in the right JSON format we need.
 
 ```javascript
 var data = {};
@@ -41,7 +43,7 @@ return msg;
 
 ![](../images/add-input-form-07.png)
 
-* Press deploy
+* Press `Deploy
 
 ### Step 7: Open in a new browser tab `https://[your-host]/ui/`
 
@@ -54,4 +56,6 @@ return msg;
 ### Step 9: Now wire the function as input for the database
 
 ![](../images/add-input-form-09.png)
+
+### Step 10:Press `Deploy`
 
