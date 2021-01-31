@@ -16,10 +16,10 @@ nav:
     - Create data entries: steps/1-create-data.md
     - Get data entries: steps/2-get-data.md.md
     - Search for entries: steps/3-search-data-entries.md
-    - Setup UI: steps/4-setup-UI.md
+    - Setup dashboard UI: steps/4-setup-UI.md
     - Add input form: steps/5-add-input-form.md
-    - Add table to the UI: steps/6-add-table-to-ui.md
-    - Add examle search to UI: steps/7-add-search-to-ui.md
+    - Add table: steps/6-add-table-to-ui.md
+    - Add examle search: steps/7-add-search-to-ui.md
     - Export flow: steps/8-export.md
   - Import flow:
     - Setup dashbord: import/0-install-nodes.md 

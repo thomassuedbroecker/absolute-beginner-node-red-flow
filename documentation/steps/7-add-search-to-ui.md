@@ -1,4 +1,4 @@
-# Add a examle search to UI
+# Add a examle search to the UI
 
 Here we will enter search string for our lastname.
 

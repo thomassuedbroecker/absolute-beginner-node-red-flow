@@ -1,4 +1,6 @@
-# Add a input `form`
+# Add a input `form` to the UI
+
+The image contains the `form`, `function` and `debug`node.
 
 ![](../images/search-data-01-g.png)
 

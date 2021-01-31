@@ -1,6 +1,6 @@
 # Add  `table` to the UI
 
-In this table we will display our data form the database.
+In this table we will display our data from the database.
 
 ![](../images/setup-table-00-a.png)
 
@@ -8,7 +8,7 @@ In this table we will display our data form the database.
 
 ![](../images/setup-table-00.png)
 
-* Insert in the `function node` and insert following code
+* Insert in the `function` node and insert following code
 
 ```javascript
 if (msg.payload.errors !== undefined ){
