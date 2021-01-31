@@ -11,7 +11,8 @@ docs_dir: documentation
 
 # Navigation
 nav:
-  - Introduction: README.md   
+  - Introduction: README.md
+  - Setup prerequisites: prerequisites/prerequisites.md  
   - Detailed setup steps:
     - Create data entries: steps/1-create-data.md
     - Get data entries: steps/2-get-data.md.md

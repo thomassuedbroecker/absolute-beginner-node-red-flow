@@ -46,6 +46,9 @@ You should have a ...
 
 * ... free [IBM Cloud Lite Account](https://cloud.ibm.com/docs/overview?topic=overview-quickstart_lite)
 * ... running Node-RED instance on IBM Cloud created with a pre-configured Node-RED App.
+![](../images/node-red-ibm-cloud-app.png)
+
+To setup the pre-configured Node-RED App just follow the steps in the video:
 
 [![How to setup the Node-RED Starter kit on IBM Cloud?](https://img.youtube.com/vi/eVHm9UIsbuI/0.jpg)](https://www.youtube.com/watch?eVHm9UIsbuI "Click play on youtube")
 
