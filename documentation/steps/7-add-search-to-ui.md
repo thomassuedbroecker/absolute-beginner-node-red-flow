@@ -12,12 +12,9 @@ Here we will enter search string for our lastname.
 
 ```javascript
 var data = {};
-data.theLastname = msg.payload.lastnamet;
+data.theLastname = msg.payload.lastname;
 data.limit = "200";
 msg.payload = data;
-return msg;
-}
-
 return msg;
 ```
 
