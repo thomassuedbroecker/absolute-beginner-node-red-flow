@@ -13,6 +13,13 @@ The flowing gif shows the usage of final flow implementation in Node-RED.
 
 ![](../images/absolute-beginner-example.gif)
 
+### Motivation
+
+The background for that example project is, when I support Hackathons I notice there's often the leak programming knowledge and build UIs. In this case is Node-RED a perfect starting point to realize a prototype at the hackathon.
+The dashboard of Node-RED is awesome way to build a UI, but there was a out of the box Node missing to simply to add tables. Now I found that very useful Node that’s create a table inside a Node-RED dashboard.
+
+That’s motivated me to create this example project, which provides an example a to build a simple application from screech, which contains the main functionalities insert data, display data in a table and search for values.
+
 ### Estimated time and level
 
 |  Time | Level  |

@@ -16,7 +16,7 @@ We will use a simple configuration.
 
 ### Step 3: Press deploy
 
-### Step 4: Press the newly created `inject node` and watch the output in the debug tab
+### Step 4: Press the newly created `inject` node and watch the output in the debug tab
 
 ![](../images/get-data-01.png)
 

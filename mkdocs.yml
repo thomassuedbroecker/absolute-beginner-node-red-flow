@@ -15,7 +15,7 @@ nav:
   - Detailed setup steps:
     - Create data entries: steps/1-create-data.md
     - Get data entries: steps/2-get-data.md.md
-    - Search for the entries: steps/3-search-data-entries.md
+    - Search for entries: steps/3-search-data-entries.md
     - Setup UI: steps/4-setup-UI.md
     - Add input form: steps/5-add-input-form.md
     - Add table to the UI: steps/6-add-table-to-ui.md

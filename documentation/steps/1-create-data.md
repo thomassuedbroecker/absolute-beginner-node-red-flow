@@ -27,19 +27,19 @@ The image below shows the dependencies of `application`, `binding` and `database
 }
 ```
 
-### Step 3: Add a `[cloudant out](https://flows.nodered.org/node/node-red-node-cf-cloudant)` node and give the database the name: `absolute beginner`
+### Step 3: Add a [cloudant out](https://flows.nodered.org/node/node-red-node-cf-cloudant) node and give the database the name: `absolute beginner`
 
 ![](../images/insert-data-01.png)
 
-### Step 4: In the `cloudant in` verify you have selected 
+### Step 4: In the `cloudant in` node, verify you have selected `Only store msg.payload object?`
 
 ![](../images/search-data-00.png)
 
-### Step 5: Verify in your existing Cloudant service instance there is no database with the name `absolute beginner`
+### Step 5: Verify in your existing Cloudant service instance, that you don't have a `absolute beginner` database
 
 ![](../images/insert-data-02.png)
 
-### Step 5: Press `data input` and verify in your existing Cloudant service, now you can see the database `absolute beginner` with one entry 
+### Step 5: Press `data input` and verify in your existing Cloudant service was created a new database called `absolute beginner`
 
 ![](../images/insert-data-03.png)
 
