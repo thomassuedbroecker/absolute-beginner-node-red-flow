@@ -1,6 +1,6 @@
 # Add a input `form` to the UI
 
-The image contains the `form`, `function` and `debug`node.
+The image contains the `form`, `function` and `debug`node, we will create.
 
 ![](../images/search-data-01-g.png)
 

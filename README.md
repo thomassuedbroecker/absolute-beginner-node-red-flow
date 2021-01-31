@@ -1,4 +1,4 @@
-This Node-RED flow is for absolute beginners with minimal `javascript` programming knowledge. 
+This Node-RED flow is for **absolute beginners** with minimal `javascript` programming knowledge. 
 
 Covering following main topics:
 

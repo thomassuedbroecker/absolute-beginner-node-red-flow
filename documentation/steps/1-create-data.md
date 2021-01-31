@@ -1,13 +1,13 @@
 # Create data entries
 
-In this part we create an `inject node` and a `cloudant out` node.
+In this part we create an `inject` and a `cloudant out` node.
 
 ![](../images/insert-data-00-b.png)
 
 > **Background**: 
-> In our situation we use Node-RED on IBM Cloud with and Cloudant service instance, which contains a database to save the flows and more for our Node-RED instance. We use Cloud Foundry as runtime for Node-RED instance and with existing Cloudant service binding, we easly can resue existing Cloudant service to create our `absolute beginner database` by using a `cloudant out` node.
+> In our situation we will use Node-RED on IBM Cloud with and Cloudant service instance, which contains a database to save the flows and more for our Node-RED instance. We use Cloud Foundry as our runtime for the Node-RED instance and with the existing Cloudant service binding, we easly can reuse our existing Cloudant service to create a `absolute beginner database` with a `cloudant out` node.
 
-The image below shows the dependencies of `application`, `binding` and `database service.
+The image below shows the dependencies of `application`, `binding` and `database service`.
 
 ![](../images/insert-data-00-a.png)
 
@@ -34,6 +34,14 @@ The image below shows the dependencies of `application`, `binding` and `database
 ### Step 4: In the `cloudant in` node, verify you have selected `Only store msg.payload object?`
 
 ![](../images/search-data-00.png)
+
+### Step 5: Select `Open dashboard` for your Cloudant service in our existing Node-RED app
+
+![](../images/insert-data-01-a.png)
+
+### Step 5: Now press `Launch dashboard`
+
+![](../images/insert-data-01-b.png)
 
 ### Step 5: Verify in your existing Cloudant service instance, that you don't have a `absolute beginner` database
 

@@ -1,6 +1,6 @@
 # Introduction
 
-This [Node-RED](https://nodered.org/) flow is for **absolute beginners** with minimal `javascript` programming knowledge, who going to participate in Hackathons.
+This [Node-RED](https://nodered.org/) flow is for **absolute beginners** with minimal [`Javascript`](https://www.w3schools.com/js/DEFAULT.asp) programming knowledge, who plan to participate in Hackathons.
 The documentation guides you to following main topics in Node-RED:
 
 How to ...
@@ -15,16 +15,18 @@ The flowing gif shows the usage of final flow implementation in Node-RED.
 
 ### Motivation
 
-The background for that example project is, when I support Hackathons I notice there's often the leak programming knowledge and build UIs. In this case is Node-RED a perfect starting point to realize a prototype at the hackathon.
-The dashboard of Node-RED is awesome way to build a UI, but there was a out of the box Node missing to simply to add tables. Now I found that very useful Node that’s create a table inside a Node-RED dashboard.
+The background for that example project is following: When I support Hackathons I notice there's often a leak of programming knowledge and building UIs. If this is the case, then Node-RED is a perfect starting point to realize a prototype at a hackathon.
+The **dashboard** of Node-RED is a awesome way to build a UI, but there was a _"out of the box"_ Node missing to simply to add a **tables**. Now I found a very useful Node that’s create a table inside a Node-RED dashboard.
 
-That’s motivated me to create this example project, which provides an example a to build a simple application from screech, which contains the main functionalities insert data, display data in a table and search for values.
+That’s motivated me to create this example project, which provides an example a to build a simple application from scratch, which contains the main functionalities to insert data, display data in a table and search for values.
 
 ### Estimated time and level
 
-|  Time | Level  |
-| - | - |
-| one hour | beginners |
+|  Time | Level | Topic |
+| - | - | - |
+| 15 min | beginners | prerequisites |
+| 30 min | beginners | (option 1) build flow absolute beginner from scratch |
+| 10 min | beginners | (option 2) import existing absolute beginner flow |
 
 ### Objectives
 
@@ -47,10 +49,6 @@ You should have a ...
 * ... free [IBM Cloud Lite Account](https://cloud.ibm.com/docs/overview?topic=overview-quickstart_lite)
 * ... running Node-RED instance on IBM Cloud created with a pre-configured Node-RED App.
 ![](../images/node-red-ibm-cloud-app.png)
-
-To setup the pre-configured Node-RED App just follow the steps in the video:
-
-[![How to setup the Node-RED Starter kit on IBM Cloud?](https://img.youtube.com/vi/eVHm9UIsbuI/0.jpg)](https://www.youtube.com/watch?eVHm9UIsbuI "Click play on youtube")
 
 ### Additional resources
 

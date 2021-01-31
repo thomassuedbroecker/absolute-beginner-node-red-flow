@@ -3,7 +3,7 @@
 To setup a UI in Node-RED we use the [Node-RED dashboard](https://flows.nodered.org/node/node-red-dashboard)
 and [Node-RED UI Table](https://flows.nodered.org/node/node-red-node-ui-table).
 
-The Node-RED dashboard uses `Tab`, `Group` and `Node element` structure and organized the UI Node elements. In the pricture below we see the dependencies.
+The Node-RED dashboard uses `Tab`, `Group` and `Node element` to structure and organize the UI Node elements for the UI frontend. In the pricture below we see the dependencies.
 
 ![](../images/setup-ui-00-a.png)
 

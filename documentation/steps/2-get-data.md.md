@@ -3,7 +3,7 @@
 Now we will load all existing data entries from our Cloudant database.
 We will use a simple configuration.
 
-### Step 1: Add a `inject node`, `cloudant in` and a `debug node` to the flow
+### Step 1: Add a `inject`,  a `cloudant in` and a `debug` node to the flow
 
 ![](../images/get-data-00-a.png)
 

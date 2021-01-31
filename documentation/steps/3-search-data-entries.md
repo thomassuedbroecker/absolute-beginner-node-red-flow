@@ -1,14 +1,31 @@
 # Search for the entries
 
-To search for data entries in our Cloudant database, we need to create a design document to define a [search index](https://cloud.ibm.com/docs/Cloudant?topic=Cloudant-query), that search index we will use in our queries. We create file additional nodes in our flow. Three `inject`, two `cloudant in` and one `debug` node.
+To search for data entries in our Cloudant database, we need to create a design document to define a [search index](https://cloud.ibm.com/docs/Cloudant?topic=Cloudant-query), that search index we will use later in our queries. Then we will create five additional nodes in our flow. 
+
+* Three `inject`
+* Two `cloudant in`
+* One `debug`
+
+The image shows the five wired nodes.
 
 ![](../images/search-data-01-b.png)
 
-_Note:_ When we will query for data we need to ensure we save the data in the right format.
+_Note:_ We need to ensure that we saved the data in the database in the right JSON format, when we going to use our queries.
+
+```json
+{ "user": {
+    "firstname": "Thomas",
+    "lastname": "Suedbroecker",
+    "country": "Germany"
+  }
+}
+```
 
 ## Configure a search index
 
-We need to create a design document to define a [search index](https://cloud.ibm.com/docs/Cloudant?topic=Cloudant-query) we will later use our queries.
+We need to create a design document to define a [search index](https://cloud.ibm.com/docs/Cloudant?topic=Cloudant-query), that we will use later in our queries.
+
+Here are the parameters for our queries:
 
 * theFirstname
 * theLastname
@@ -22,7 +39,7 @@ Example usage of a query `theLastname:S*`:
 
 ![](../images/search-data-01-c.png)
 
-### Step 2: Create a new design document
+### Step 2: Create a new design document just by press `Create document`
 
 ![](../images/search-data-01-d.png)
 
@@ -89,3 +106,5 @@ The image shows the new design document.
 * Index name: `_searchindex`
 
 ![](../images/search-data-01-f.png)
+
+### Step 7: Press `Deploy`
