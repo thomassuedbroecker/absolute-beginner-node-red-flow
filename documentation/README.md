@@ -34,7 +34,7 @@ That’s motivated me to create this example project, which provides an example 
 
 After the setup of the example should be able to use your Node-RED instance on IBM Cloud to
 
-* ... save data in a [Cloudant database](https://cloud.ibm.com/docs/Cloudant?topic=Cloudant-databases) within you Node-RED installation on IBM Cloud
+* ... save data in a [Cloudant database](https://cloud.ibm.com/docs/Cloudant?topic=Cloudant-databases) within your Node-RED installation on IBM Cloud
 * ... search for data entries using [Cloudant database query](https://cloud.ibm.com/docs/Cloudant?topic=Cloudant-query)
 * ... display data in a UI using [Node-RED dashboard](https://flows.nodered.org/node/node-red-dashboard) and [Node-RED UI Table](https://flows.nodered.org/node/node-red-node-ui-table)
 
