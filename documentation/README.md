@@ -11,7 +11,7 @@ How to ...
 
 The flowing gif shows the usage of final flow implementation in Node-RED.
 
-![](../images/absolute-beginner-example.gif)
+![](./images/absolute-beginner-example.gif)
 
 ### Motivation
 
@@ -20,7 +20,7 @@ The **dashboard** of Node-RED is a awesome way to build a UI, but there was a _"
 
 That’s motivated me to create this example project, which provides an example to build a simple application from scratch, which contains the main functionalities to insert data, display data in a table and search for values, as you see in the gif below.
 
-![](../images/absolute-beginner-ui.gif)
+![](./images/absolute-beginner-ui.gif)
 
 ### Estimated time and level
 
@@ -42,7 +42,7 @@ After the setup of the example should be able to use your Node-RED instance on I
 
 The following diagram shows the simplfied architecture of the example Node-RED application. 
 
-![](../images/simplified-architecture.png)
+![](./images/simplified-architecture.png)
 
 ### Prerequisites
 
