@@ -28,4 +28,4 @@ return msg;
 
 ### Step 3: Press deploy
 
-Congrats if you got this far you are ready to use your mini application in the internet!
+**Congrats**, if you got this far you are ready to use your mini application in the internet!
