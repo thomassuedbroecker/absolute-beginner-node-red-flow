@@ -47,6 +47,8 @@ return msg;
 
 ### Step 7: Open in a new browser tab `https://[your-host]/ui/`
 
+Example URL: `https://node-red-example.mybluemix.net/ui/
+
 ![](../images/add-input-form-05.png)
 
 ### Step 8: Insert a name and press `SUBMIT`
