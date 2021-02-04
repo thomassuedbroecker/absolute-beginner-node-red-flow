@@ -10,3 +10,4 @@ Here is a simple was to export your flow.
 
 ![](../images/export-01.png)
 
+### Step 3: Now you able to save the content in a file or just reuse it in a other Node-RED instance.

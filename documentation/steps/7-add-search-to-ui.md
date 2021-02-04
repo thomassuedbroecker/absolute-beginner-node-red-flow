@@ -27,3 +27,5 @@ return msg;
 ![](../images/search-ui-02.png)
 
 ### Step 3: Press deploy
+
+Congrats if you got this far you are ready to use your mini application in the internet!
