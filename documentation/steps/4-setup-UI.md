@@ -1,4 +1,4 @@
-# Setup the dashboard UI 
+# Setup the dashboard UI [(YouTube 10:01)](https://youtu.be/qtOmufIjafE?t=601%20%E2%80%8B)
 
 To setup a UI in Node-RED we use the [Node-RED dashboard](https://flows.nodered.org/node/node-red-dashboard)
 and [Node-RED UI Table](https://flows.nodered.org/node/node-red-node-ui-table).

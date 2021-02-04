@@ -1,4 +1,4 @@
-# Search for the entries
+# Search for the entries [YouTube 6:59](https://youtu.be/qtOmufIjafE?t=418%20%E2%80%8B)
 
 To search for data entries in our Cloudant database, we need to create a design document to define a [search index](https://cloud.ibm.com/docs/Cloudant?topic=Cloudant-query), that search index we will use later in our queries. Then we will create five additional nodes in our flow. 
 

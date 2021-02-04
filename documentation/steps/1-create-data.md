@@ -1,4 +1,4 @@
-# Create data entries
+# Create data entries [YouTube (2:40)](https://youtu.be/qtOmufIjafE?t=154%20%E2%80%8B)
 
 In this part we create an `inject` and a `cloudant out` node.
 

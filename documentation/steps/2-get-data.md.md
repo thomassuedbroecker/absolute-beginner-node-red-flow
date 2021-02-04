@@ -1,4 +1,4 @@
-# Get data entries
+# Get data entries [YouTube (5:54)](https://youtu.be/qtOmufIjafE?t=351%20%E2%80%8B)
 
 Now we will load all existing data entries from our Cloudant database.
 We will use a simple configuration.
