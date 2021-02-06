@@ -26,6 +26,7 @@ nav:
     - Setup dashbord: import/0-install-nodes.md 
     - Import flow: import/1-import.md
     - Configure Cloudant search: import/2-configure-cloudant.md
+  - Tips: tips/tips.md
   - References:
     - Node-RED: https://nodered.org
     - Setup Node-RED on IBM Cloud: https://suedbroecker.net/2020/03/09/a-short-introduction-of-the-node-red-starter-kit-on-ibm-cloud-for-hackathons/
