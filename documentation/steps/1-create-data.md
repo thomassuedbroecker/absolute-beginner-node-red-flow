@@ -26,30 +26,53 @@ The image below shows the dependencies of `application`, `binding` and `database
   }
 }
 ```
+### Step 3: Open a new browser tap and login to your IBM Cloud account
 
-### Step 3: Add a [cloudant out](https://flows.nodered.org/node/node-red-node-cf-cloudant) node and give the database the name: `absolute beginner`
+### Step 4: In the dashboard select `App
+
+![](../images/open-node-red-app-01.png)
+
+### Step 5: Now press on your Node-RED App you created in the last video
+
+![](../images/open-node-red-app-02.png)
+
+### Step 6: Select in the App `Cloudant->Open Dashboard`
+
+![](../images/open-node-red-app-03.png)
+
+### Step 6: In the Cloudant database service press `Launch Dashboard`
+
+![](../images/open-node-red-app-04.png)
+
+### Step 7: Now you can see the existing database `nodered`
+
+Later we will find here our `absolute-bebinner` database
+
+![](../images/open-node-red-app-05.png)
+
+### Step 8: Add a [cloudant out](https://flows.nodered.org/node/node-red-node-cf-cloudant) node and give the database the name: `absolute beginner`
 
 ![](../images/insert-data-01.png)
 
-### Step 4: In the `cloudant in` node, verify you have selected `Only store msg.payload object?`
+### Step 9: In the `cloudant in` node, verify you have selected `Only store msg.payload object?`
 
 ![](../images/search-data-00.png)
 
-### Step 5: Select `Open dashboard` for your Cloudant service in our existing Node-RED app
+### Step 10: Select `Open dashboard` for your Cloudant service in our existing Node-RED app
 
 ![](../images/insert-data-01-a.png)
 
-### Step 5: Now press `Launch dashboard`
+### Step 11: Now press `Launch dashboard`
 
 ![](../images/insert-data-01-b.png)
 
-### Step 5: Verify in your existing Cloudant service instance, that you don't have a `absolute beginner` database
+### Step 12: Verify in your existing Cloudant service instance, that you don't have a `absolute beginner` database
 
 ![](../images/insert-data-02.png)
 
-### Step 5: Press `data input` and verify in your existing Cloudant service was created a new database called `absolute beginner`
+### Step 13: Press `data input` and verify in your existing Cloudant service was created a new database called `absolute beginner`
 
 ![](../images/insert-data-03.png)
 
-### Step 6: Press deploy
+### Step 14: Press deploy
 
