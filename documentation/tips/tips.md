@@ -2,7 +2,7 @@
 
 In case something doesn’t work as it should, check out following tips.
 
-### Tip 01:	Ensure your'e logged on to your Node-RED flow
+### Tip 01:	Ensure you're logged on to your Node-RED flow
 
 ![](../images/tips-01.png)
 
