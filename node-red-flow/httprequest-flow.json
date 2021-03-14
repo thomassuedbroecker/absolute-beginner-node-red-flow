@@ -1,0 +1,162 @@
+[
+    {
+        "id": "b0bdb5f4.196cb",
+        "type": "tab",
+        "label": "HTTP REST Endpoint data",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "afb6200b.3b5ed",
+        "type": "inject",
+        "z": "b0bdb5f4.196cb",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "berlin",
+        "payload": "",
+        "payloadType": "date",
+        "x": 150,
+        "y": 120,
+        "wires": [
+            [
+                "3530fea0.447e7a"
+            ]
+        ]
+    },
+    {
+        "id": "3530fea0.447e7a",
+        "type": "http request",
+        "z": "b0bdb5f4.196cb",
+        "name": "",
+        "method": "GET",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "https://restcountries.eu/rest/v2/capital/{{{payload.capital}}}",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "authType": "",
+        "x": 350,
+        "y": 120,
+        "wires": [
+            [
+                "2ca6749f.9f5da4"
+            ]
+        ]
+    },
+    {
+        "id": "de40e971.1a74c",
+        "type": "debug",
+        "z": "b0bdb5f4.196cb",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 690,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "2ca6749f.9f5da4",
+        "type": "json",
+        "z": "b0bdb5f4.196cb",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 510,
+        "y": 120,
+        "wires": [
+            [
+                "de40e971.1a74c",
+                "3742971.c3042e8"
+            ]
+        ]
+    },
+    {
+        "id": "3742971.c3042e8",
+        "type": "ui_text",
+        "z": "b0bdb5f4.196cb",
+        "group": "c2acba82.9fc5f8",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Country",
+        "format": "{{msg.payload[0].name}}",
+        "layout": "row-spread",
+        "x": 680,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "6db386e8.f9b668",
+        "type": "ui_form",
+        "z": "b0bdb5f4.196cb",
+        "name": "",
+        "label": "",
+        "group": "c2acba82.9fc5f8",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "options": [
+            {
+                "label": "Capital",
+                "value": "capital",
+                "type": "text",
+                "required": true,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "capital": ""
+        },
+        "payload": "",
+        "submit": "submit",
+        "cancel": "cancel",
+        "topic": "topic",
+        "topicType": "msg",
+        "splitLayout": "",
+        "x": 130,
+        "y": 200,
+        "wires": [
+            [
+                "3530fea0.447e7a"
+            ]
+        ]
+    },
+    {
+        "id": "c2acba82.9fc5f8",
+        "type": "ui_group",
+        "name": "Country data",
+        "tab": "de7b5a03.92383",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "de7b5a03.92383",
+        "type": "ui_tab",
+        "name": "HTTP REST data",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    }
+]
