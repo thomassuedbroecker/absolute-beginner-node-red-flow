@@ -14,7 +14,7 @@ In case something doesn’t work as it should, check out following tips.
 
 ![](../images/tips-03.gif)
 
-### Tip 04:	When you imported the Node-RED flow ...
+### Tip 04:	When you imported the example `node-red-flow/basic-flow.json` in your Node-RED instance
 
 * Ensure you configured the `search index` for the `absolute-beginner` database
 * Ensure you selected 
