@@ -2,7 +2,7 @@
     {
         "id": "f76dbd27.f4fb8",
         "type": "tab",
-        "label": "Flow 1",
+        "label": "REST Endpoint (HTTP in)",
         "disabled": false,
         "info": ""
     },
