@@ -1,0 +1,143 @@
+[
+    {
+        "id": "f76dbd27.f4fb8",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "c0b3e08c.724618",
+        "type": "http in",
+        "z": "f76dbd27.f4fb8",
+        "name": "",
+        "url": "/getname",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 190,
+        "y": 200,
+        "wires": [
+            [
+                "b801879c.3c788",
+                "5f8c2434.846a1c"
+            ]
+        ]
+    },
+    {
+        "id": "da692a8c.8daf08",
+        "type": "http response",
+        "z": "f76dbd27.f4fb8",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 610,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "b801879c.3c788",
+        "type": "function",
+        "z": "f76dbd27.f4fb8",
+        "name": "",
+        "func": "var payload = {};\n\nif ( msg.payload.firstname === \"thomas\") {\n     payload = { \"message\" : \"Hello World! Greetings from Thomas\"};\n} else {\n     payload = { \"message\" : \"Hello World\" };\n}\n\nmsg.payload = payload;\n\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 420,
+        "y": 200,
+        "wires": [
+            [
+                "da692a8c.8daf08",
+                "5f8c2434.846a1c"
+            ]
+        ]
+    },
+    {
+        "id": "5f8c2434.846a1c",
+        "type": "debug",
+        "z": "f76dbd27.f4fb8",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 440,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "634b38dd.3dd198",
+        "type": "comment",
+        "z": "f76dbd27.f4fb8",
+        "name": "REST Endpoint",
+        "info": "",
+        "x": 190,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "cdab2346.a70a58",
+        "type": "inject",
+        "z": "f76dbd27.f4fb8",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 180,
+        "y": 380,
+        "wires": [
+            [
+                "53b1dcde.8d4d24"
+            ]
+        ]
+    },
+    {
+        "id": "53b1dcde.8d4d24",
+        "type": "http request",
+        "z": "f76dbd27.f4fb8",
+        "name": "",
+        "method": "GET",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "https://node-red-app-hackathon-tsuedbro.mybluemix.net/getname",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "authType": "",
+        "x": 380,
+        "y": 380,
+        "wires": [
+            [
+                "5f8c2434.846a1c"
+            ]
+        ]
+    },
+    {
+        "id": "f66083a5.2bd9d8",
+        "type": "comment",
+        "z": "f76dbd27.f4fb8",
+        "name": "Invoke REST endpoint",
+        "info": "",
+        "x": 200,
+        "y": 320,
+        "wires": []
+    }
+]
