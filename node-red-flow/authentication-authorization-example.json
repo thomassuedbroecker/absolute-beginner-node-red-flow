@@ -1,0 +1,262 @@
+[
+    {
+        "id": "57d5c984.a0e7b",
+        "type": "tab",
+        "label": "Authentication Example",
+        "disabled": false,
+        "info": "You can your example application with IBM Cloud Code Engine\n\nhttps://thomassuedbroecker.github.io/ce-cns"
+    },
+    {
+        "id": "fb38595.4c5b428",
+        "type": "http request",
+        "z": "57d5c984.a0e7b",
+        "name": "https://KEYCLOAK_URL/auth/realms/quarkus/protocol/openid-connect/token",
+        "method": "POST",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "https://keycloak.9xztp8web0h.us-south.codeengine.appdomain.cloud/auth/realms/quarkus/protocol/openid-connect/token",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "authType": "",
+        "x": 560,
+        "y": 240,
+        "wires": [
+            [
+                "395ea24f.7bee0e"
+            ]
+        ]
+    },
+    {
+        "id": "62853da9.a9c70c",
+        "type": "function",
+        "z": "57d5c984.a0e7b",
+        "name": "Build header and payload",
+        "func": "msg.headers = {\n  'Content-Type' : 'application/x-www-form-urlencoded'\n};\n\n// client backend-service\n/*\nmsg.payload = {'grant_type':'password', \n               'client_id':'backend-service',\n               'username':'alice',\n               'password':'alice',\n               'client_secret':'secret'\n              };\n*/\n\nmsg.payload = {'grant_type':'password', \n               'client_id':'frontend',\n               'username':'alice',\n               'password':'alice'\n              };\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 390,
+        "y": 160,
+        "wires": [
+            [
+                "fb38595.4c5b428"
+            ]
+        ]
+    },
+    {
+        "id": "dc69b490.8d60d",
+        "type": "inject",
+        "z": "57d5c984.a0e7b",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 160,
+        "y": 160,
+        "wires": [
+            [
+                "62853da9.a9c70c"
+            ]
+        ]
+    },
+    {
+        "id": "88563b76.bca528",
+        "type": "comment",
+        "z": "57d5c984.a0e7b",
+        "name": "1) Request bearer access token",
+        "info": "",
+        "x": 210,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "20f9ff47.c04818",
+        "type": "debug",
+        "z": "57d5c984.a0e7b",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 350,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "395ea24f.7bee0e",
+        "type": "json",
+        "z": "57d5c984.a0e7b",
+        "name": "",
+        "property": "payload",
+        "action": "obj",
+        "pretty": false,
+        "x": 330,
+        "y": 300,
+        "wires": [
+            [
+                "4df8036f.eca4cc"
+            ]
+        ]
+    },
+    {
+        "id": "4df8036f.eca4cc",
+        "type": "function",
+        "z": "57d5c984.a0e7b",
+        "name": "set_bearer_token",
+        "func": "flow.set(\"bearer_token\", \"Bearer \" + msg.payload.access_token);\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 370,
+        "y": 360,
+        "wires": [
+            [
+                "20f9ff47.c04818"
+            ]
+        ]
+    },
+    {
+        "id": "a46df675.a19d",
+        "type": "comment",
+        "z": "57d5c984.a0e7b",
+        "name": "Bearer access token saved as flow variable",
+        "info": "",
+        "x": 680,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "88096981.88df6",
+        "type": "comment",
+        "z": "57d5c984.a0e7b",
+        "name": "2) Request protected data",
+        "info": "",
+        "x": 170,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "88142578.39a2c",
+        "type": "function",
+        "z": "57d5c984.a0e7b",
+        "name": "Build header and payload",
+        "func": "msg.headers = {\n  'Authorization' : flow.get(\"bearer_token\")\n};\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 390,
+        "y": 600,
+        "wires": [
+            [
+                "bfde2608.8101b",
+                "6023edcb.a62c0c"
+            ]
+        ]
+    },
+    {
+        "id": "1abbf619.6524ca",
+        "type": "inject",
+        "z": "57d5c984.a0e7b",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 160,
+        "y": 600,
+        "wires": [
+            [
+                "88142578.39a2c"
+            ]
+        ]
+    },
+    {
+        "id": "bfde2608.8101b",
+        "type": "http request",
+        "z": "57d5c984.a0e7b",
+        "name": "https://WEB_API-SERVICE/articles",
+        "method": "GET",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "https://web-api.9xztp8web0h.us-south.codeengine.appdomain.cloud/articles",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "authType": "",
+        "x": 420,
+        "y": 660,
+        "wires": [
+            [
+                "a8295408.7a4ea8"
+            ]
+        ]
+    },
+    {
+        "id": "6023edcb.a62c0c",
+        "type": "debug",
+        "z": "57d5c984.a0e7b",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 330,
+        "y": 820,
+        "wires": []
+    },
+    {
+        "id": "a8295408.7a4ea8",
+        "type": "json",
+        "z": "57d5c984.a0e7b",
+        "name": "",
+        "property": "payload",
+        "action": "obj",
+        "pretty": false,
+        "x": 330,
+        "y": 740,
+        "wires": [
+            [
+                "6023edcb.a62c0c"
+            ]
+        ]
+    }
+]
