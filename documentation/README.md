@@ -6,6 +6,8 @@ This [Node-RED](https://nodered.org/) flow is for **absolute beginners** with mi
 
 [![Absolute beginner Node-RED flow (2021)](https://img.youtube.com/vi/qtOmufIjafE/0.jpg)](https://www.youtube.com/watch?v=qtOmufIjafE "Click play on youtube")
 
+### Objectives
+
 The documentation guides you to following main topics in Node-RED:
 
 How to ...
