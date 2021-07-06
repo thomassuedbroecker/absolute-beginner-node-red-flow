@@ -1,6 +1,11 @@
-# Introduction [(YouTube)](https://youtu.be/qtOmufIjafE)
+# Introduction
 
 This [Node-RED](https://nodered.org/) flow is for **absolute beginners** with minimal [`Javascript`](https://www.w3schools.com/js/DEFAULT.asp) programming knowledge, who plan to participate in Hackathons.
+
+**Here a 25 min guide and overview on YouTube**
+
+[![Absolute beginner Node-RED flow (2021)](https://img.youtube.com/vi/qtOmufIjafE/0.jpg)](https://www.youtube.com/watch?v=qtOmufIjafE "Click play on youtube")
+
 The documentation guides you to following main topics in Node-RED:
 
 How to ...
