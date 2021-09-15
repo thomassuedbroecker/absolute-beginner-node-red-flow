@@ -55,7 +55,7 @@ The following diagram shows the simplfied architecture of the example Node-RED a
 
 You should have a ...
 
-* ... free [IBM Cloud Lite Account](https://cloud.ibm.com/docs/overview?topic=overview-quickstart_lite)
+* ... free [IBM Cloud Lite Account](https://cloud.ibm.com/docs/overview?topic=overview-quickstart_lite) and upgraded to an [PayAsYouGo Account](https://cloud.ibm.com/docs/account?topic=account-accounts)
 * ... running Node-RED instance on IBM Cloud created with a pre-configured Node-RED App.
 ![](../images/node-red-ibm-cloud-app.png)
 

@@ -1,7 +1,11 @@
 # Setup prerequisites
 
-### Step 1: Follow this [link](https://ibm.biz/BdfXAn) and setup a IBM Cloud Lite account
+### Step 1: Follow this [link](https://ibm.biz/BdfXAn) and first setup an IBM Cloud Lite account and upgrade to a PayAsYouGo account. 
 
-### Step 2: To setup the pre-configured Node-RED App just follow the steps in this YouVideo:
+### (This doesn't work anymore!) Step 2: To setup the pre-configured Node-RED App just follow the steps in this YouVideo:  
 
 [![How to setup the Node-RED Starter kit on IBM Cloud?](https://img.youtube.com/vi/eVHm9UIsbuI/0.jpg)](https://www.youtube.com/watch?eVHm9UIsbuI "Click play on youtube")
+
+### Step 3: To setup the pre-configured Node-RED App just follow the steps in this YouVideo:
+
+[![(new in 2021) Code Engine, Containerized Application, Node-RED Starter Kit and Scale To Zero?](https://img.youtube.com/vi/A9yLbjOJN5I/0.jpg)](https://www.youtube.com/watch?A9yLbjOJN5I "Click play on youtube")
