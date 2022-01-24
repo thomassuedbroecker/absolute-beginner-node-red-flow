@@ -1,0 +1,130 @@
+[
+    {
+        "id": "17a5fdef1537fb68",
+        "type": "loop",
+        "z": "4e418cdaaa1d3694",
+        "name": "",
+        "kind": "cond",
+        "count": "",
+        "initial": "1",
+        "step": "2",
+        "condition": "msg.payload < 10",
+        "conditionType": "js",
+        "when": "before",
+        "enumeration": "enum",
+        "enumerationType": "msg",
+        "limit": "",
+        "loopPayload": "loop-index",
+        "finalPayload": "final-last",
+        "x": 340,
+        "y": 160,
+        "wires": [
+            [
+                "15dc6b444873839a"
+            ],
+            [
+                "06ecdf79a865f645",
+                "75047ec1dae0a4a3"
+            ]
+        ]
+    },
+    {
+        "id": "2d59ee30cba0e904",
+        "type": "inject",
+        "z": "4e418cdaaa1d3694",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "1",
+        "payloadType": "num",
+        "x": 150,
+        "y": 160,
+        "wires": [
+            [
+                "17a5fdef1537fb68"
+            ]
+        ]
+    },
+    {
+        "id": "06ecdf79a865f645",
+        "type": "function",
+        "z": "4e418cdaaa1d3694",
+        "name": "",
+        "func": "msg.payload = msg.payload + 1;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 360,
+        "y": 240,
+        "wires": [
+            [
+                "17a5fdef1537fb68"
+            ]
+        ]
+    },
+    {
+        "id": "75047ec1dae0a4a3",
+        "type": "debug",
+        "z": "4e418cdaaa1d3694",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 670,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "a3a85ae350eca597",
+        "type": "debug",
+        "z": "4e418cdaaa1d3694",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 670,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "15dc6b444873839a",
+        "type": "function",
+        "z": "4e418cdaaa1d3694",
+        "name": "",
+        "func": "msg.payload = \"Result \" + msg.payload;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 510,
+        "y": 120,
+        "wires": [
+            [
+                "a3a85ae350eca597"
+            ]
+        ]
+    }
+]
