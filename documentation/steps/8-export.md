@@ -1,6 +1,6 @@
 # Export the flow
 
-Here is a simple was to export your flow.
+Here is a simple way to export your flow.
 
 ### Step 1: Select from the burger menu `export`
 
