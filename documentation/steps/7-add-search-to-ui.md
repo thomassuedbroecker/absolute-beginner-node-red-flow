@@ -1,4 +1,4 @@
-# Add a examle search to the UI [(YouTube 18:43)](https://youtu.be/qtOmufIjafE?t=1123)
+# Add a example search to the UI [(YouTube 18:43)](https://youtu.be/qtOmufIjafE?t=1123)
 
 Here we will enter search string for our lastname.
 

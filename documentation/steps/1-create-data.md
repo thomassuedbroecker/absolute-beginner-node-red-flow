@@ -5,7 +5,7 @@ In this part we create an `inject` and a `cloudant out` node.
 ![](../images/insert-data-00-b.png)
 
 > **Background**: 
-> In our situation we will use Node-RED on IBM Cloud with and Cloudant service instance, which contains a database to save the flows and more for our Node-RED instance. We use Cloud Foundry as our runtime for the Node-RED instance and with the existing Cloudant service binding, we easly can reuse our existing Cloudant service to create a `absolute beginner database` with a `cloudant out` node.
+> In our situation we will use Node-RED on IBM Cloud with and Cloudant service instance, which contains a database to save the flows and more for our Node-RED instance. We use Cloud Foundry as our runtime for the Node-RED instance and with the existing Cloudant service binding, we easily can reuse our existing Cloudant service to create an `absolute beginner database` with a `cloudant out` node.
 
 The image below shows the dependencies of `application`, `binding` and `database service`.
 
@@ -46,7 +46,7 @@ The image below shows the dependencies of `application`, `binding` and `database
 
 ### Step 7: Now you can see the existing database `nodered`
 
-Later we will find here our `absolute-bebinner` database
+Later we will find here our `absolute-beginner` database
 
 ![](../images/open-node-red-app-05.png)
 
