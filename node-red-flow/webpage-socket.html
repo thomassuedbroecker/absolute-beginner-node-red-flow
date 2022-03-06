@@ -38,7 +38,7 @@
       sock.onopen = function(){
           $('#connected').text('Waiting for message ...');
           console.log("Connected websocket");
-          document.getElementById("count").innerHTML = "Receifed messages: 0";
+          document.getElementById("count").innerHTML = "received messages: 0";
       };
       sock.onerror = function(){
           console.log("Websocket error");
