@@ -1,0 +1,143 @@
+[
+    {
+        "id": "31592697cadf4e7a",
+        "type": "tab",
+        "label": "simple loop",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "ea6227f2ab651816",
+        "type": "switch",
+        "z": "31592697cadf4e7a",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "10",
+                "vt": "num"
+            },
+            {
+                "t": "neq",
+                "v": "10",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 470,
+        "y": 240,
+        "wires": [
+            [
+                "41b511060b05d50c"
+            ],
+            [
+                "c31b4b02708786b2",
+                "f604a63a0e1cf258"
+            ]
+        ]
+    },
+    {
+        "id": "5ed474cfd8e8fa91",
+        "type": "inject",
+        "z": "31592697cadf4e7a",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "1",
+        "payloadType": "num",
+        "x": 250,
+        "y": 240,
+        "wires": [
+            [
+                "ea6227f2ab651816"
+            ]
+        ]
+    },
+    {
+        "id": "c31b4b02708786b2",
+        "type": "function",
+        "z": "31592697cadf4e7a",
+        "name": "",
+        "func": "var input = msg.payload;\nmsg.payload = input + 1;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 480,
+        "y": 360,
+        "wires": [
+            [
+                "ea6227f2ab651816"
+            ]
+        ]
+    },
+    {
+        "id": "41b511060b05d50c",
+        "type": "function",
+        "z": "31592697cadf4e7a",
+        "name": "",
+        "func": "var output = \"We did \" + msg.payload + \" loops\";\nmsg.payload = output;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 680,
+        "y": 220,
+        "wires": [
+            [
+                "706d387bde78d821"
+            ]
+        ]
+    },
+    {
+        "id": "f604a63a0e1cf258",
+        "type": "debug",
+        "z": "31592697cadf4e7a",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 710,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "706d387bde78d821",
+        "type": "debug",
+        "z": "31592697cadf4e7a",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 870,
+        "y": 220,
+        "wires": []
+    }
+]

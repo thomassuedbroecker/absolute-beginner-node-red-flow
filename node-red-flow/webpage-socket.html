@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Example WebSocker with Node-RED</title>
+  <style>
+    html, body, #map-canvas {
+      height: 100%;
+      margin: 0px;
+      padding: 0px
+    }
+    #header {
+      background-color:black;
+      color:white;
+      text-align:center;
+      padding:5px;
+    }
+    #footer {
+      background-color:black;
+      color:white;
+      clear:both;
+      text-align:center;
+      padding:5px;
+    }
+  </style>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
+  <script type="text/javascript">
+    var socketaddy = "ws://" + window.location.host + "/ws/message";
+    var count = 0;
+    $(document).ready(function(){
+      var output = document.getElementById('output_message')
+
+      $('#output_message').on('ended', function () {
+          $('#connected').text('Waiting for message ...')
+      });
+
+      sock = new WebSocket(socketaddy);
+      sock.onopen = function(){
+          $('#connected').text('Waiting for message ...');
+          console.log("Connected websocket");
+          document.getElementById("count").innerHTML = "Receifed messages: 0";
+      };
+      sock.onerror = function(){
+          console.log("Websocket error");
+      };
+      sock.onclose = function () {
+          $('#connected').text('Not connected. Refresh the page?')
+      }
+      sock.onmessage = function(evt){
+        console.log("WebSocket message: ", evt);
+        count = count + 1;
+        var message = "";
+        message = "Showed messages : " + count
+        document.getElementById("output_message").innerHTML = message;
+		document.getElementById("count").innerHTML = evt.data;
+      };
+    });
+  </script>
+
+</head>
+<body style="font-size: 56px; font-family: helvetica; text-align: center; margin-top: 100px;">
+  <div id="header">
+    <p>Example WebSocket page</p>
+    <a href="https://thomassuedbroecker.github.io/absolute-beginner-node-red-flow/steps/5-add-input-form/">Absolute beginner "add input form"</a>
+    <p id="count"></p>
+  </div>
+  <div id="connected">Connecting...</div>
+  <div id="output_message"></div>
+</body>
+</html>
